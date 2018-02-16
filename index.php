@@ -28,9 +28,6 @@
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
                 <nav class="navbar navbar-default">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Rural Development.</a>
-                    </div>
                     <ul class="nav navbar-nav navbar-right">
                         <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -99,9 +96,9 @@
         <div class="row">
 
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
-                <div class="well">
-                    <div class="card-body"><a href="Crops/index.php">Crops</a></div>
-                </div>
+                 <a href="Crops/index.php"><div class="well">
+                   <div class="card-body">Crops</div>
+                </div></a>
             </div>
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
                 <div class="well">
