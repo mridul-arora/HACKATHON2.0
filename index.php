@@ -28,9 +28,6 @@
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
                 <nav class="navbar navbar-default">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Rural Development.</a>
-                    </div>
                     <ul class="nav navbar-nav navbar-right">
                         <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
