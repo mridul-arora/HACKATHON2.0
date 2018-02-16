@@ -1,39 +1,41 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
-    <title>Bootstrap Example</title>
+    <title>Agriculture</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
-     <Style>
-         .navbar.navbar-default{
-             margin-bottom: 0;
-         }
-    </Style>
-<body>
+<Style>
+    .navbar.navbar-default {
+        margin-bottom: 0;
+    }
 
-        <div class="container-fluid">
-            <div class="row">
+</Style>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
+
                  <nav class="navbar navbar-default">
-
         <ul class="nav navbar-nav navbar-right">
-
             <li class="active"><a href="index.php">Home</a></li>
             <li><a href="AboutUs/index.php">About Us</a></li>
             <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
         </ul>
 
-</nav>
+
+                </nav>
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -45,26 +47,26 @@
                 <div class="carousel-inner">
 
                     <div class="item active">
-                        <img src="Assets/images/16.png" alt="Image 16" style="width:100%;">
+                        <img src="Assets/images/cc.jpg" alt="Image cc" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3>Los Angeles</h3>
-                            <p>LA is always so much fun!</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+                        <img src="Assets/images/dd.jpg" alt="dd" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3>Chicago</h3>
-                            <p>Thank you, Chicago!</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="ny.jpg" alt="New York" style="width:100%;">
+                        <img src="Assets/images/gg.jpg" alt="gg" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3>New York</h3>
-                            <p>We love the Big Apple!</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
 
@@ -80,7 +82,23 @@
       <span class="sr-only">Next</span>
     </a>
             </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
+            <div class="well">
+        <div class="card-body">Crops</div>
+       </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
+            <div class="well">
+        <div class="card-body">Machines</div>
+       </div>
             </div>
         </div>
-    </body>
-    </html>
+    </div>
+</body>
+
+</html>
