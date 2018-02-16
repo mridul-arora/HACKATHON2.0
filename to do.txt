@@ -55,3 +55,34 @@ login
     machines required: thresher, combine harvester
     
     
+    <div class= "container">
+	     <div class="row">
+            <div class="col-md-6">		    
+		          <a href="ad_details_fb_photo.php">
+                  <div class="select_platform_space  " style="font-size:20px;">
+				  
+                 I want to  publish ads in the form of photos
+                  </div></a>  
+            </div>
+            <div class="col-md-6">			
+				  <a href="ad_details_fb_video.php">
+				  <div class="select_platform_space " style="font-size:20px;">
+                  I want to  publish ads in the form of videos
+                  </div></a>  
+			</div>	  
+	     </div>
+      </div>
+      
+      
+      .select_platform_space {
+	border:2px solid black;
+	margin-top:250px;
+	padding:45px;
+   background-color:rgb(153, 179, 255);
+	text-align:center;
+	color:black;
+	margin-left:100px;
+	margin-right:100px;
+	border-radius: 25px;
+}
+    
