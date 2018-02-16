@@ -11,7 +11,11 @@
 </head>
     <style>
         .card{
+<<<<<<< HEAD
             margin: 2vh 3vw;
+=======
+            margin: 2vh 4vw;
+>>>>>>> origin/master
 
         }
     </style>
