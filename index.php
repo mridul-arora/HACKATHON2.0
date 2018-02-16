@@ -14,7 +14,12 @@
     .navbar.navbar-default {
         margin-bottom: 0;
     }
-
+    .left carousel-control{
+        height:75%;
+    }
+    .right carousel-control{
+        height:75%;
+    }
 </Style>
 
 <body>
@@ -26,7 +31,7 @@
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">Rural Development.</a>
                     </div>
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navbar-right">
                         <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Page 1-1</a></li>
@@ -37,12 +42,9 @@
                         <li class="active"><a href="index.php">Home</a></li>
                         <li><a href="AboutUs/index.php">About Us</a></li>
                         <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                     <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
-
                 </nav>
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -80,7 +82,7 @@
 
                 </div>
 
-                <!-- Left and right controls -->
+                <!--Left and right controls-->
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
@@ -88,7 +90,7 @@
                 <a class="right carousel-control" href="#myCarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
-    </a>
+    </a>-->
             </div>
         </div>
     </div>
