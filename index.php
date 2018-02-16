@@ -1,4 +1,3 @@
-<?php include 'Assets/parts/header.php'; ?>
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +9,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+     <Style>
+         .navbar.navbar-default{
+             margin-bottom: 0;
+         }
+    </Style>
 <body>
-        <div class="container">
+
+        <div class="container-fluid">
+            <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                 <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Rural Development</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>-->
+            <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="AboutUs/index.php">About Us</a></li>
+            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+
+</nav>
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -24,7 +53,7 @@
                 <div class="carousel-inner">
 
                     <div class="item active">
-                        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+                        <img src="Assets/images/16.png" alt="Image 16" style="width:100%;">
                         <div class="carousel-caption">
                             <h3>Los Angeles</h3>
                             <p>LA is always so much fun!</p>
@@ -58,6 +87,7 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
+            </div>
             </div>
         </div>
     </body>
