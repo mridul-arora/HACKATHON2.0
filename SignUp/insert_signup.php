@@ -9,8 +9,8 @@ if(isset($_POST['sub']))
    $g=$_POST['phone_no'];
    $c=$_POST['state'];
    $d=$_POST['district'];
-
-            $query=mysqli_query($con,"INSERT INTO user (f_name,l_name,phone_no,state,district)VALUES('$a','$b','$g','$c','$d')");
+   $e=$_POST['password'];
+            $query=mysqli_query($con,"INSERT INTO user (f_name,l_name,phone_no,state,district,password)VALUES('$a','$b','$g','$c','$d','$e')");
                  if($query)
                          {
                      echo "hello";
@@ -25,7 +25,7 @@ if(isset($_POST['sub']))
                                     $_SESSION['phone_no']=$no;
 							        $_SESSION['user_id']=$id;
                                   echo $_SESSION['phone_no'];
-                                   /* header("Location:select_user_type.php");*/
+                                    header("Location:HACKATHON2.0/index.php");
                                  }
 						 }
 

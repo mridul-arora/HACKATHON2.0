@@ -9,6 +9,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
+    <style>
+     select:focus,
+    option:focus {
+        outline: none;
+    }
+    </style>
 <body>
     <?php
 // define variables and set to empty valuesS
@@ -32,24 +38,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
      }
 ?>
 
-    <form method="post" action="insert_sell_crop.php">
-                                 <select name="crop_name" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;margin-top:40px;" placeholder="select crop"><br>
-                             <option value="1" style="opacity:0.7;">Select your district</option>
+    <form method="POST" action="insert_sell_crop.php">
+            <select name="crop_name" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;margin-top:40px;" placeholder="select crop"><br>
+                             <option value="1" style="opacity:0.7;">Select your crop</option>
                              <option value="Wheat">Wheat</option>
                              <option value="Rice">Rice</option>
                              <option value="Potato">Potato</option>
                              <option value="Brinjal">Brinjal</option>
                              <option value="Cabbage">Cabbage</option>
                              <option value="Black gram">Black gram</option>
-                              </select><br>
-                        <div class="form-group">
+            </select><br>
+        <div class="form-group">
                                 <label for="quantity"></label>
                                 <input type="text" class="form" name="quantity" placeholder="Quantity in kg">
-                            </div><br>
-                                   <div class="form-group">
+        </div><br>
+        <div class="form-group">
                                 <label for="price"></label>
                                 <input type="text" class="form" name="price" placeholder="price per kg">
-                            </div><br>
+        </div><br>
 
     <div class="submit_center">
         <button type="sub" class="btn btn-primary" name="sub">Submit</button>

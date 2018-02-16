@@ -10,11 +10,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
     <style>
-        .card{
-            margin: 2vh 3vw;
-
-
-        }
     </style>
 <body>
    <div class="container">
@@ -36,7 +31,6 @@
    <div class="col-md-6 col-xl-6 col-xs-12">
   <div class="card">
       <img src="../Assets/images/p.jpg">
-<div class="card-body">Basic card</div>
   </div>
   <div class="col-md-6 col-xl-6 col-xs-12">
   <div class="card">
