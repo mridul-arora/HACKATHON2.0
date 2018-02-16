@@ -97,7 +97,7 @@
 
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
                 <div class="well">
-                    <div class="card-body">Crops</div>
+                    <div class="card-body"><a href="Crops/index.php">Crops</a></div>
                 </div>
             </div>
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
