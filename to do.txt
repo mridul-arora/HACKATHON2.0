@@ -5,3 +5,8 @@ quantity and price per kg
 
 cards bootstrap
 login
+
+1st evaluation:
+1.home 
+2.signup 
+3.crops

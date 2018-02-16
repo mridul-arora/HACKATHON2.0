@@ -1,5 +1,6 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
     <title>Bootstrap Example</title>
@@ -9,39 +10,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-     <Style>
-         .navbar.navbar-default{
-             margin-bottom: 0;
-         }
-    </Style>
-<body>
+<Style>
+    .navbar.navbar-default {
+        margin-bottom: 0;
+    }
 
-        <div class="container-fluid">
-            <div class="row">
+</Style>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-                 <nav class="navbar navbar-default">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Rural Development</a>
-        </div>
-        <ul class="nav navbar-nav">
-            <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Rural Development</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Page 1-1</a></li>
           <li><a href="#">Page 1-2</a></li>
           <li><a href="#">Page 1-3</a></li>
         </ul>
       </li>-->
-            <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="AboutUs/index.php">About Us</a></li>
-            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li><a href="AboutUs/index.php">About Us</a></li>
+                        <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
 
-</nav>
+                </nav>
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -88,7 +90,21 @@
       <span class="sr-only">Next</span>
     </a>
             </div>
+        </div>
+    </div>
+    /*crops button and machines*/
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-6 col-xl-6 col-xs-12">
+            <div class="open">
+            Crops
+            </div>
+            <div class="open">
+            Machines
+            </div>
             </div>
         </div>
-    </body>
-    </html>
+    </div>
+</body>
+
+</html>

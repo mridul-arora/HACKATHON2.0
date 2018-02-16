@@ -20,10 +20,12 @@
         </ul>
     </div>
 </header>-->
+<style>
 
+</style>
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
-        <div class="navbar-header">
+       <!-- <div class="navbar-header">
             <a class="navbar-brand" href="#">Rural Development</a>
         </div>
             <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
