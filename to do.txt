@@ -26,7 +26,7 @@ login
             </div>
         </div>
     </div>
-    crop: wheat.
+    crop: wheat
     district:bhirbhum
     bolpur market price:1670/quintal
     suri market price: 1600/quintal
@@ -53,5 +53,19 @@ login
     pesticides: herbicides, fungicides
     
     machines required: thresher, combine harvester
+    
+    crop: rice
+district: Malda
+nadia market price: 2800/quintal
+
+crop: rice
+district: Durgapur
+jangipur market price: 2550/quintal
+
+crop: rice
+district: Siliguri
+raiganj market price: 2550/quintal
+
+
     
     
