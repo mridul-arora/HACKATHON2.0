@@ -13,6 +13,7 @@
         background-repeat: no-repeat;
         background-size: 1280px 700px;
         -webkit-appearance: none;
+        background-image: url("../Assets/images/12.jpg");
     }
 
     .error {
