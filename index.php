@@ -24,7 +24,7 @@
 
                 <nav class="navbar navbar-default">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Rural Development</a>
+                        <a class="navbar-brand" href="#">Rural Development.</a>
                     </div>
                     <ul class="nav navbar-nav">
                         <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
@@ -55,26 +55,26 @@
                 <div class="carousel-inner">
 
                     <div class="item active">
-                        <img src="Assets/images/16.png" alt="Image 16" style="width:100%;">
+                        <img src="Assets/images/cc.jpg" alt="Image cc" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3>Los Angeles</h3>
-                            <p>LA is always so much fun!</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+                        <img src="Assets/images/dd.jpg" alt="dd" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3>Chicago</h3>
-                            <p>Thank you, Chicago!</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <img src="ny.jpg" alt="New York" style="width:100%;">
+                        <img src="Assets/images/gg.jpg" alt="gg" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3>New York</h3>
-                            <p>We love the Big Apple!</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
 
@@ -92,7 +92,7 @@
             </div>
         </div>
     </div>
-    /*crops button and machines*/
+
     <div class="container-fluid">
         <div class="row">
         <div class="col-md-6 col-xl-6 col-xs-12">
