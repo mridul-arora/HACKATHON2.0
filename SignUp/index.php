@@ -96,7 +96,7 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
-?>*/
+?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
