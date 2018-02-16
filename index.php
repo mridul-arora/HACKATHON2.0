@@ -96,9 +96,9 @@
         <div class="row">
 
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
-                <div class="well">
-                    <div class="card-body"><a href="Crops/index.php">Crops</a></div>
-                </div>
+                 <a href="Crops/index.php"><div class="well">
+                   <div class="card-body">Crops</div>
+                </div></a>
             </div>
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
                 <div class="well">
