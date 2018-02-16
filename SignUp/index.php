@@ -9,7 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
-    /*body {
+    body {
         background-repeat: no-repeat;
         background-size: 1280px 700px;
         -webkit-appearance: none;
@@ -33,15 +33,21 @@
         outline: none;
     }
 
-    ::-webkit-input-placeholder {
-        /* Chrome/Opera/Safari
+
+   /* ::-webkit-input-placeholder {
+
         opacity: 0.7;
-    }
+    }*/
 
     .submit_center {
         margin-top: 50px;
         margin-left: 170px;
-    }*/
+    }
+     select:focus,
+    option:focus {
+        outline: none;
+    }
+
 
 </style>
 
@@ -111,6 +117,24 @@ function test_input($data) {
                                 <label for="phone_no"></label>
                                 <input type="text" class="form" name="phone_no" placeholder="Phone No">
                             </div><br>
+                             <select name="state"  style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;" placeholder="select state"><br>
+                             <option value="1" style="opacity:0.7;">Select your state</option>
+                             <option value="West Bengal">West Bengal</option>
+                              </select><br>
+                             <select name="district" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;margin-top:40px;" placeholder="select state"><br>
+                             <option value="1" style="opacity:0.7;">Select your district</option>
+                             <option value="Asansol">Asansol</option>
+                             <option value="barhampur">Barhampur</option>
+                             <option value="Birbhum">Birbhum</option>
+                             <option value="cooch behar">Cooch Behar</option>
+                             <option value="malda">Malda</option>
+                             <option value="durgapur">Durgapur</option>
+                             <option value="siliguri">Siliguri</option>
+                                 <option value="pandua">Pandua</option>
+                                 <option value="samsi">Samsi</option>
+                                 <option value="murshidabad">Murshidabad</option>
+                                 <option value="howrah">Howrah</option>
+                              </select><br>
                             <br>
                             <div class="submit_center">
                                 <button type="sub" class="btn btn-primary" name="sub">Submit</button>
@@ -123,7 +147,5 @@ function test_input($data) {
                 </div>
             </div>
         </div>
-
-
 </body>
 </html>

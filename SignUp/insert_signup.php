@@ -7,7 +7,10 @@ if(isset($_POST['sub']))
    $a=$_POST['f_name'];
    $b=$_POST['l_name'];
    $g=$_POST['phone_no'];
-            $query=mysqli_query($con,"INSERT INTO user (f_name,l_name,phone_no)VALUES('$a','$b','$g')");
+   $c=$_POST['state'];
+   $d=$_POST['district'];
+
+            $query=mysqli_query($con,"INSERT INTO user (f_name,l_name,phone_no,state,district)VALUES('$a','$b','$g','$c','$d')");
                  if($query)
                          {
                      echo "hello";
