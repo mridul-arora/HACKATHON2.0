@@ -11,7 +11,7 @@
 </head>
 <body>
     <?php
-// define variables and set to empty values
+// define variables and set to empty valuesS
 $quanErr = $pricErr ="";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST")
