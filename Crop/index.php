@@ -30,7 +30,7 @@
 				<div class="col-lg-2 col-md-2 col-sm-2">
 					<div class="header-logo">
 						<a href="index.html">
-							<img src="img/logo.png" alt="logo">
+							<!--<img src="img/logo.png" alt="logo">-->
 						</a>
 					</div>
 				</div>
@@ -58,15 +58,12 @@
 									<div class="single-menu-item">
 									</div>
 								</div>
-							</li>
 							<li>
 								<a href="SignOut.html">sign out</a>
-							</li>
-							<li>
-								<a href="contact.html">contact us </a>
-					</nav>
-				</div>
-			</div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
 		</div>
 
 		<!-- Start mobile menu -->
