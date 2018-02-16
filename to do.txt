@@ -99,6 +99,18 @@ crop: rice
 district: Siliguri
 raiganj market price: 2550/quintal
 
+ crop: potato
+district: durgapur
+purulia market price: 2800/quintal
+
+crop: potato
+district: pandua
+jangipur market price: 2550/quintal
+
+crop: potato
+district: Siliguri
+jalangi market price: 2550/quintal
+
 
     
 >>>>>>> origin/master
