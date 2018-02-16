@@ -33,10 +33,7 @@
     input:focus {
         outline: none;
     }
-
-
-   /* ::-webkit-input-placeholder {
-
+    /* ::-webkit-input-placeholder {
         opacity: 0.7;
     }*/
 
@@ -44,12 +41,14 @@
         margin-top: 50px;
         margin-left: 170px;
     }
-     select:focus,
+    select:focus,
     option:focus {
         outline: none;
     }
-
-
+    .col-md-12{
+        text-align: center;
+    }
+    .col-md-6{text-align: center;}
 </style>
 
 <body>
@@ -57,7 +56,6 @@
 // define variables and set to empty values
 $nameErr = $name1Err ="";
 $Fname = $Lname ="";
-
 if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
         if (empty($_POST["Fname"]))
@@ -90,7 +88,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                     }
              }
   }
-
 function test_input($data) {
   $data = trim($data);
   $data = stripslashes($data);
@@ -99,38 +96,41 @@ function test_input($data) {
 }
 ?>
         <div class="container">
-                        <form method="post" action="insert_signup.php">
-                              <div style="margin-top:150px">
-                             <div class="row">
-                                 <div class="col-md-3 col"></div>
-                <div class="col-md-3 col">
+            <form method="post" action="insert_signup.php">
+                <div style="margin-top:150px">
+                    <div class="row">
+                        <div class="col-md-12"></div>
+                        <div class="col-md-12">
                             <div class="form-group">
-                                 <p><span class="error">* required field.</span></p>
+                                <p><span class="error">* required field.</span></p>
                                 <label for="f_name"></label>
                                 <input type="text" class="form" name="f_name" placeholder="First Name"><span class="error">* <?php echo $nameErr;?></span>
-                    </div><br></div></div>
-                             <div class="row">
-                                 <div class="col-md-3 col"></div>
-                <div class="col-md-3">
+                            </div><br></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 "></div>
+                        <div class="col-md-12">
                             <div class="form-group">
                                 <label for="l_name"></label>
                                 <input type="text" class="form" name="l_name" placeholder="Last Name"><span class="error">* <?php echo $name1Err;?></span>
-                    </div><br></div></div>
-                             <div class="row">
-                                 <div class="col-md-3 col"></div>
-                <div class="col-md-3">
+                            </div><br></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col"></div>
+                        <div class="col-md-12">
                             <div class="form-group">
                                 <label for="phone_no"></label>
                                 <input type="text" class="form" name="phone_no" placeholder="Phone No">
-                    </div><br></div></div>
-                             <div class="row">
-                                 <div class="col-md-3 col"></div>
-                <div class="col-md-3">
-                             <select name="state"  style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;" placeholder="select state"><br>
+                            </div><br></div>
+                    </div>
+                    <div class="row">
+
+                      <div class="col-md-12">
+                            <select name="state" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;" placeholder="select state"><br>
                              <option value="1" style="opacity:0.7;">Select your state</option>
                              <option value="West Bengal">West Bengal</option>
-                              </select><br>
-                             <select name="district" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;margin-top:40px;" placeholder="select state"><br>
+                            </select><br>
+                            <select name="district" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;margin-top:40px;" placeholder="select state"><br>
                              <option value="1" style="opacity:0.7;">Select your district</option>
                              <option value="Asansol">Asansol</option>
                              <option value="barhampur">Barhampur</option>
@@ -144,21 +144,17 @@ function test_input($data) {
                                  <option value="murshidabad">Murshidabad</option>
                                  <option value="howrah">Howrah</option>
                               </select><br>
-                    <br></div></div>
-                             <div class="row">
-                                 <div class="col-md-3 col"></div>
-                <div class="col-md-3">
-                            <div class="submit_center">
-                                <button type="sub" class="btn btn-primary" name="sub">Submit</button>
-                            </div>
-                                 </div></div>
-                        </form>
-                        <div>
+                            <br></div>
                         </div>
-
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="col-md-12 col"></div>
+                        <div class="col-md-12">
+                                <button type="sub" class="btn btn-primary" name="sub">Submit</button>
+                        </div>
+                    </div>
+            </form>
             </div>
-        </div>
 </body>
+
 </html>
