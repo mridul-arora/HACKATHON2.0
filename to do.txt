@@ -1,2 +1,7 @@
 nav bar: aboutus, contact, sign in , sign out, home
 districs:- malda, durgapur, siliguri,pandua, samsi,asansol, birbhum,barhampur, murshidabad,howrah, cooch behar
+
+quantity and price per kg
+
+cards bootstrap
+login
