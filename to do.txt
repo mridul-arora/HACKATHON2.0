@@ -10,3 +10,19 @@ login
 1.home 
 2.signup 
 3.crops
+<div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
+                <div class="well">
+                    <div class="card-body">Crops</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
+                <div class="well">
+                    <div class="card-body">Machines</div>
+                </div>
+
+            </div>
+        </div>
+    </div>

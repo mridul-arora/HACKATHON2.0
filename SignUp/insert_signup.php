@@ -14,17 +14,19 @@ if(isset($_POST['sub']))
                  if($query)
                          {
                      echo "hello";
-							 /* $query2=mysqli_query($con,"SELECT* FROM user WHERE phone_no='$g'");
+							 $query2=mysqli_query($con,"SELECT* FROM user WHERE phone_no='$g'");
 							  while($row=mysqli_fetch_array($query2))
                                  {
-                                  $k                                                                                                          k=$row['email'];
-									 $n=$row['user_id'];
+
+									 $no=$row['phone_no'];
+                                     $id=$row['user_id'];
 									  session_id("session2");
 									 session_start();
-                                    $_SESSION['login_email']=$kk;
-							        $_SESSION['id']=$n;
-                                    header("Location:select_user_type.php");
-                                 }*/
+                                    $_SESSION['phone_no']=$no;
+							        $_SESSION['user_id']=$id;
+                                  echo $_SESSION['phone_no'];
+                                   /* header("Location:select_user_type.php");*/
+                                 }
 						 }
 
    }

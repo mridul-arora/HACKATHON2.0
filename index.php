@@ -82,7 +82,7 @@
 
                 </div>
 
-                <!--Left and right controls-->
+                <!--Left and right controls
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
@@ -95,15 +95,19 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+   <div class="container-fluid">
         <div class="row">
-        <div class="col-md-6 col-xl-6 col-xs-12">
-            <div class="open">
-            Crops
+
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
+                <div class="well">
+                    <div class="card-body">Crops</div>
+                </div>
             </div>
-            <div class="open">
-            Machines
-            </div>
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
+                <div class="well">
+                    <div class="card-body">Machines</div>
+                </div>
+
             </div>
         </div>
     </div>
