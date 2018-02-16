@@ -92,7 +92,7 @@
             </div>
         </div>
     </div>
-    /*crops button and machines*/
+
     <div class="container-fluid">
         <div class="row">
         <div class="col-md-6 col-xl-6 col-xs-12">
