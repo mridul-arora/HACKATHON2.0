@@ -24,7 +24,7 @@
 
                 <nav class="navbar navbar-default">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Rural Development</a>
+                        <a class="navbar-brand" href="#">Rural Development.</a>
                     </div>
                     <ul class="nav navbar-nav">
                         <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
