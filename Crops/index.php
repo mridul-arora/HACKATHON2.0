@@ -36,7 +36,7 @@
    <div class="col-md-6 col-xl-6 col-xs-12">
   <div class="card">
       <img src="../Assets/images/p.jpg">
-  </div>
+<div class="card-body">Basic card</div>
   </div>
   <div class="col-md-6 col-xl-6 col-xs-12">
   <div class="card">
