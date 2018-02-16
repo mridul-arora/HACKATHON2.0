@@ -18,7 +18,7 @@
    <div class="col-md-6 col-xl-6 col-xs-12">
   <div class="card">
       <img src="../Assets/images/r.jpg">
-    <div class="card-body">RICE</div>
+    <div class="card-body">RICE.</div>
   </div>
   </div>
   <div class="col-md-6 col-xl-6 col-xs-12">
