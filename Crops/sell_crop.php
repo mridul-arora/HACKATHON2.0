@@ -35,7 +35,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     <form method="post" action="insert_sell_crop.php">
                         <div class="form-group">
                                 <label for="quantity"></label>
-                                <input type="text" class="form" name="quantity" placeholder="Phone No">
+                                <input type="text" class="form" name="quantity" placeholder="Quantity in kg">
+                            </div><br>
+                                   <div class="form-group">
+                                <label for="price"></label>
+                                <input type="text" class="form" name="price" placeholder="price per kg">
                             </div><br>
     </form>
     </body>
