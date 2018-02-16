@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Marvel:700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(http://fonts.googleapis.com/css?family=Donegal+One);
@@ -865,4 +866,45 @@ padding-bottom: 8px;
 
 #form1 a:hover {
 	opacity: 0.5;
+=======
+#header {
+    display: inline-block;
+    padding: 1.5vh 15vw 2.5vh 15vw;
+    width: 70vw;
+    height: 4vh;
+    border-bottom: 1px solid #18436e;
+    background-image: url("../images/16.png");
+    /*box-shadow: 0px 0px 8px 2px #18436e;
+    position: absolute;*/
+    /*opacity: 0;*/
+}
+
+header div ul li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.right {
+    display: inline-block;
+    float: right;
+    margin: -0.5vh;
+    padding-right: 2.5vw;
+}
+
+.left {
+    padding-bottom: 1vh;
+    padding: 0;
+    font-size: 4vh;
+    text-decoration: none;
+    padding-left: 2.5vw;
+}
+
+.navsize {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2.5vh;
+    border-right: 1px solid #18436e;
+    padding: 0 1vw;
+>>>>>>> origin/master
 }
