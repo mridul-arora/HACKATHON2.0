@@ -1,4 +1,4 @@
-<?php include 'Assets/parts/header.php'; ?>
+
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +11,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-        <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <?php include 'Assets/parts/header.php'; ?>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -58,6 +60,7 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
+            </div>
             </div>
         </div>
     </body>
