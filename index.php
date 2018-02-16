@@ -28,9 +28,6 @@
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
                 <nav class="navbar navbar-default">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Rural Development.</a>
-                    </div>
                     <ul class="nav navbar-nav navbar-right">
                         <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -55,7 +52,6 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
-
                     <div class="item active">
                         <img src="Assets/images/cc.jpg" alt="Image cc" style="width:100%;">
                         <div class="carousel-caption">
@@ -81,7 +77,6 @@
                     </div>
 
                 </div>
-
                 <!--Left and right controls
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
@@ -100,7 +95,7 @@
 
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
                 <div class="well">
-                    <div class="card-body"><a href="Crops/index.php">Crops</a></div>
+                    <div class="card-body"><a href="../HACKATHON2.0/Crops/index.php">Crops</a></div>
                 </div>
             </div>
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
