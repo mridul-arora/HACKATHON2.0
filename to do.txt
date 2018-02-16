@@ -26,3 +26,32 @@ login
             </div>
         </div>
     </div>
+    crop: wheat
+    district:bhirbhum
+    bolpur market price:1670/quintal
+    suri market price: 1600/quintal
+    
+     crop: wheat
+    district:barhampur
+    alipurduar price:1880/quintal
+    bankura price:1860/quintal
+    
+    crop: wheat
+    district:murshidabad
+    jalangi price:1800/quintal
+    karimpur price: 1820/quintal
+    
+    water req:wheat
+    avg: 2000-4000l/kg
+    
+    seed cost: 35/kg
+    
+    sowing season: february-may
+    harvesting season: october-december
+    
+    fertilizer: nitrogen fertilizer, urea, ammonium nitrate
+    pesticides: herbicides, fungicides
+    
+    machines required: thresher, combine harvester
+    
+    
