@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         else
             {
                 $name = test_input($_POST["quantity"]);
-                // check if name only contains letters and whitespace
+                // check if name only contains letters and whitespace.
                 if (!preg_match("/^[0-9 ]*$/",$name))
                 {
                 $nameErr = "Only digits allowed";
