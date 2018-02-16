@@ -26,7 +26,7 @@ login
             </div>
         </div>
     </div>
-    crop: wheat
+    crop: wheat.
     district:bhirbhum
     bolpur market price:1670/quintal
     suri market price: 1600/quintal
