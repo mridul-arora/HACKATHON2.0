@@ -11,7 +11,7 @@
 </head>
     <style>
         .card{
-            margin: 2vh 3vw;
+            margin: 2vh 4vw;
 
         }
     </style>
