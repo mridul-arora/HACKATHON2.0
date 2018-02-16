@@ -99,25 +99,33 @@ function test_input($data) {
 }
 ?>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-8">
-                    <div style="margin-top:150px">
-                        <p><span class="error">* required field.</span></p>
                         <form method="post" action="insert_signup.php">
+                              <div style="margin-top:150px">
+                             <div class="row">
+                                 <div class="col-md-3 col"></div>
+                <div class="col-md-3 col">
                             <div class="form-group">
+                                 <p><span class="error">* required field.</span></p>
                                 <label for="f_name"></label>
                                 <input type="text" class="form" name="f_name" placeholder="First Name"><span class="error">* <?php echo $nameErr;?></span>
-                            </div><br>
+                    </div><br></div></div>
+                             <div class="row">
+                                 <div class="col-md-3 col"></div>
+                <div class="col-md-3">
                             <div class="form-group">
                                 <label for="l_name"></label>
                                 <input type="text" class="form" name="l_name" placeholder="Last Name"><span class="error">* <?php echo $name1Err;?></span>
-                            </div><br>
+                    </div><br></div></div>
+                             <div class="row">
+                                 <div class="col-md-3 col"></div>
+                <div class="col-md-3">
                             <div class="form-group">
                                 <label for="phone_no"></label>
                                 <input type="text" class="form" name="phone_no" placeholder="Phone No">
-                            </div><br>
+                    </div><br></div></div>
+                             <div class="row">
+                                 <div class="col-md-3 col"></div>
+                <div class="col-md-3">
                              <select name="state"  style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;" placeholder="select state"><br>
                              <option value="1" style="opacity:0.7;">Select your state</option>
                              <option value="West Bengal">West Bengal</option>
@@ -136,10 +144,14 @@ function test_input($data) {
                                  <option value="murshidabad">Murshidabad</option>
                                  <option value="howrah">Howrah</option>
                               </select><br>
-                            <br>
+                    <br></div></div>
+                             <div class="row">
+                                 <div class="col-md-3 col"></div>
+                <div class="col-md-3">
                             <div class="submit_center">
                                 <button type="sub" class="btn btn-primary" name="sub">Submit</button>
                             </div>
+                                 </div></div>
                         </form>
                         <div>
                         </div>
