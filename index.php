@@ -59,23 +59,16 @@
     <div class="container-fluid">
         <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                <nav class="navbar navbar-default">
-                    <ul class="nav navbar-nav navbar-right">
-                        <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
+              <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="AboutUs/index.php">About Us</a></li>
+             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
         </ul>
-      </li>-->
-                        <li class="active"><a href="index.php">Home</a></li>
-                        <li><a href="AboutUs/index.php">About Us</a></li>
-                     <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                         <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-                    </ul>
-                </nav>
+
+</nav>
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -152,7 +145,7 @@
         </div>
     </div>
     </div>
-   <div class="container-fluid">
+  <!-- <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin:0px 0px;">
                 <div class="well">
@@ -192,6 +185,6 @@
 
             </div>
         </div>
-    </div>
+    </div>-->
     </body>
 </html>
