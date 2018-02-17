@@ -1,9 +1,10 @@
 <?php include "../Assets/parts/header.php";?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <title>
         Weather
-        </title>
+    </title>
 
-    </head>
+</head>
