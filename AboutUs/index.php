@@ -22,11 +22,18 @@
     </nav>
 
 </head>
+<style>
+    .textbox{margin-left: auto;
+        margin-right: auto;
+    }
+
+</style>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-xl-12 col-xs-12">
+            <div class="col-md-6 col-xl-6 col-xs-12">
+                <div class="textbox"> FuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuckFuckfUckfuCkfucKFUCKfuck</div>
 
             </div>
         </div>

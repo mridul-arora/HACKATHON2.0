@@ -90,9 +90,38 @@
         </div>
     </div>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card-deck">
+                <div class="card"><a href="#">
+        <img class="card-img-top" src="../Assets/images/tt.jpg" alt="Card image cap">
+        <div class="card-block">
+          <CENTER><h4 class="card-title">THRESHER</h4></CENTER>
+              </div>
+                </a>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <CENTER>
+                        <h4 class="card-title">COMBINE HARVESTER</h4>
+                    </CENTER>
+                  </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../Assets/images/vc.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <CENTER>
+                        <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
+                    </CENTER>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:0px 0px;">
                 <div class="well">
                     <div class="card-body"><a href="../HACKATHON2.0/Crops/index.php">Crops</a></div>
                 </div>
