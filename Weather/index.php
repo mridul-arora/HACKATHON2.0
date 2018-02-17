@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<head>
-    <title>Weather</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+    <head>
+  <title>Weather</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <style>
     .box {
@@ -46,34 +43,25 @@ echo '</pre>';*/
 print_r($data1);
 echo "</pre>";*/
 
-    //current conditions
-    $temperature_current=$data1->currently->temperature;
-    $temperature_current_c=round(($temperature_current - 32)*.5556);
-    $summary_current=$data1->currently->summary;
-    $windspeed_current=round($data1->currently->windSpeed);
-    $humidity_current=$data1->currently->humidity*100;
-    //set timezone
-    date_default_timezone_set($data1->timezone);
-    ?><!DOCTYPE html><head><title>Weather Report </title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head><style>body {
-        background-image: url("../Assets/images/weather.jpg") !important;
 
-        background-size: cover;
-    }
-
-    .well {
-        margin-left: 3vw;
-        width: 30vw;
-        height: auto;
-        text-align: center;
-        box-shadow: 0px 5px 0px 3px;
-
-        font-weight: 1000;
-        border: bold 2px;
-        text-decoration: none;
-        border-radius: 25px;
-        margin-bottom: 5vh;
-        background-color: rgb(153, 179, 255);
-    }
+//current conditions
+$temperature_current=$data1->currently->temperature;
+$temperature_current_c=round(($temperature_current - 32)*.5556);
+$summary_current=$data1->currently->summary;
+$windspeed_current=round($data1->currently->windSpeed);
+$humidity_current=$data1->currently->humidity*100;
+//set timezone
+date_default_timezone_set($data1->timezone);
+?>
+<!DOCTYPE html>
+<head>
+<title>Weather Report </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<style>
+  body{
+            background-image: url("../Assets/images/weather.jpg");
 
     .well:hover {
         margin-left: 3vw;
