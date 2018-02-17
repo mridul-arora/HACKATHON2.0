@@ -52,7 +52,6 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
-
                     <div class="item active">
                         <img src="Assets/images/cc.jpg" alt="Image cc" style="width:100%;">
                         <div class="carousel-caption">
@@ -78,7 +77,6 @@
                     </div>
 
                 </div>
-
                 <!--Left and right controls
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
@@ -96,10 +94,11 @@
         <div class="row">
 
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
-                 <a href="Crops/index.php"><div class="well">
-                   <div class="card-body">Crops</div>
-                </div></a>
-            </div>
+
+                <div class="well">
+                    <div class="card-body"><a href="../HACKATHON2.0/Crops/index.php">Crops</a></div>
+                </div>
+
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
                 <div class="well">
                     <div class="card-body">Machines</div>
@@ -107,6 +106,7 @@
 
             </div>
         </div>
+    </div>
     </div>
 </body>
 
