@@ -136,6 +136,10 @@
          border: black 4px;
          box-shadow: black;
     }
+    h3{
+        margin-bottom: 8em;
+        font-size: 5rem;
+    }
 </Style>
 
 <body>
@@ -168,7 +172,7 @@
                     <div class="item active">
                         <img src="Assets/images/rrr.jpg" alt="Image cc" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3></h3>
+                            <h3>The new Way to Farming!</h3>
                             <p></p>
                         </div>
                     </div>
@@ -176,7 +180,7 @@
                     <div class="item">
                         <img src="Assets/images/dd.jpg" alt="dd" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3></h3>
+                            <h3>We implement new technologies for agricultural growth.</h3>
                             <p></p>
                         </div>
                     </div>
@@ -184,7 +188,7 @@
                     <div class="item">
                         <img src="Assets/images/gg.jpg" alt="gg" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3></h3>
+                            <h3>using innovative equipments to reduce timme and energy in farming.</h3>
                             <p></p>
                         </div>
                     </div>

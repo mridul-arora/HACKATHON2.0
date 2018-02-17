@@ -3,7 +3,7 @@
     function googleTranslateElementInit() {
         new google.translate.TranslateElement({
             pageLanguage: 'en',
-            includedLanguages: 'bn,en,gu,hi,ml,mr,ne,pa,sd,ta,te,ur',
+            includedLanguages: 'bn,en,gu,hi,ml,mr,ne,pa,ta,te,ur',
             layout: google.translate.TranslateElement.InlineLayout.SIMPLE
         }, 'google_translate_element');
     }
