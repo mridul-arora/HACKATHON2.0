@@ -38,9 +38,6 @@
         margin-top: -6vh;
         text-align: center;
     }
-    .row{
-        margin-top: 15vh;
-    }
     .row img{
         width: 100%;
     }
