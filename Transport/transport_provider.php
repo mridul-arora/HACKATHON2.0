@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>SIGN UP</title>
-   <link rel="stylesheet" type="text/css" href="../Assets/css/style.css"/>
- <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../Assets/css/style.css" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="../index.php">Home</a></li>
-            <li><a href="../AboutUs/index.php">About Us</a></li>
-             <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li><a href="../ContactUs/index.php ">Contact Us</a></li>
-        </ul>
-    </div>
-</nav>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../AboutUs/index.php">About Us</a></li>
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="../ContactUs/index.php ">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
 
 </head>
 <style>
@@ -26,7 +27,7 @@
         background-repeat: no-repeat;
         background-size: 1280px 700px;
         -webkit-appearance: none;
-        background-image: url("../Assets/images/tree.jpeg");
+        background-image: url("../Assets/images/tb.jpg");
         background-size: cover;
     }
 
@@ -47,6 +48,7 @@
     input:focus {
         outline: none;
     }
+
     /* ::-webkit-input-placeholder {
         opacity: 0.7;
     }*/
@@ -55,18 +57,24 @@
         margin-top: 50px;
         margin-left: 170px;
     }
+
     select:focus,
     option:focus {
         outline: none;
     }
-    .col-md-12{
+
+    .col-md-12 {
         text-align: center;
     }
-    .col-md-6{text-align: center;
+
+    .col-md-6 {
+        text-align: center;
     }
-    .btn-success{
+
+    .btn-success {
         margin-bottom: 7vh;
     }
+
 </style>
 
 <body>
@@ -114,50 +122,33 @@ function test_input($data) {
 }
 ?>
         <div class="container">
-            <form method="post" action="insert_t_procider.php">
-                <div style="margin-top:10vh">
-                    <div class="row">
-                        <div class="col-md-12"></div>
-                        <div class="col-md-12">
+            <div class="row">
+                <form method="post" action="insert_t_provider.php">
+                    <div style="margin-top:10vh">
+                        <div class="form-group">
+                            <p><span class="error">* required field.</span></p>
+                            <label for="wt"></label>
+                            <input type="text" class="form" name="wt" placeholder="Enter weight"><span class="error">* <?php echo $nameErr;?></span>
+                        </div><br></div>
                             <div class="form-group">
-                                <p><span class="error">* required field.</span></p>
-                                <label for="f_name"></label>
-                                <input type="text" class="form" name="f_name" placeholder="First Name"><span class="error">* <?php echo $nameErr;?></span>
-                            </div><br></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 "></div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="l_name"></label>
-                                <input type="text" class="form" name="l_name" placeholder="Last Name"><span class="error">* <?php echo $name1Err;?></span>
-                            </div><br></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 col"></div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="phone_no"></label>
-                                <input type="text" class="form" name="phone_no" placeholder="Phone No">
-                            </div><br></div>
-                    </div>
-                     <div class="row">
-                        <div class="col-md-12"></div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="password"></label>
-                                <input type="text" class="form" name="password" placeholder="Password"><span class="error">* <?php echo $nameErr;?></span>
-                            </div><br></div>
-                    </div>
-                    <
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 col"></div>
-                        <div class="col-md-12">
-                                <button type="sub" class="btn btn-success" name="sub" >Submit</button>
+                                <label for="dist"></label>
+                                <input type="text" class="form" name="dist" placeholder="Distance">
+                            </div><br>
+                    <div class="form-group">
+                                <label for="time"></label>
+                                <input type="text" class="form" name="time" placeholder="Time in days">
+                            </div><br>
+                     <div class="form-group">
+                                <label for="price"></label>
+                                <input type="text" class="form" name="price" placeholder="Price">
+                            </div><br>
+                        <div class="row">
+                            <div class="col-md-12 col"></div>
+                            <div class="col-md-12">
+                                <button type="sub" class="btn btn-success" name="sub">Submit</button>
+                            </div>
                         </div>
-                    </div>
-            </form>
+                </form>
             </div>
 </body>
 

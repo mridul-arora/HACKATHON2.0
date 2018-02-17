@@ -9,15 +9,16 @@
 	margin-top:10em;
 	padding:45px;
    	text-align:center;
-    text-decoration: none;
 	color:white;
 	margin-left:2em;
 	margin-right:2em;
 	border-radius: 25px;
+          font-weight:1000;
 
 }
         a:hover{
             color: white;
+            text-decoration: none;
         }
         body{
             background-image: url("../Assets/images/tran.jpg");
@@ -35,24 +36,19 @@
     </div>
 	     <div class="row">
             <div class="col-md-6">
-				  <a href="available/index.php">
+				  <a href="transport_provider.php">
 				  <div class="select_platform_space " style="font-size:20px;">
-                      <bold>AVAILABLE FOR SERVICE</bold>
+                      <b>AVAILABLE FOR SERVICE</b>
                   </div></a>
 			</div>
                <div class="col-md-6">
-		          <a href="nee/index.php">
+		          <a href="transport_user.php">
                   <div class="select_platform_space " style="font-size:20px;">
 
-                      <bold>IN NEED OF SERVICE</bold>
+                      <b>IN NEED OF SERVICE</b>
                   </div></a>
             </div>
-               <!--<div class="col-md-4">
-				  <a href="#">
-				  <div class="select_platform_space " style="font-size:20px;">
-                Sell Crops and Vegetables.
-                  </div></a>
-			</div>-->
+
 	     </div>
       </div>
 </body>
