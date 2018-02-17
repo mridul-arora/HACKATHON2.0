@@ -26,7 +26,8 @@
         background-repeat: no-repeat;
         background-size: 1280px 700px;
         -webkit-appearance: none;
-        background-image: url("../Assets/images/wh.jpg");
+        background-image: url("../Assets/images/tree.jpeg");
+        background-size: cover;
     }
 
     .error {
@@ -61,7 +62,11 @@
     .col-md-12{
         text-align: center;
     }
-    .col-md-6{text-align: center;}
+    .col-md-6{text-align: center;
+    }
+    .btn-primary{
+        margin-bottom: 5vh;
+    }
 </style>
 
 <body>
@@ -110,7 +115,7 @@ function test_input($data) {
 ?>
         <div class="container">
             <form method="post" action="insert_signup.php">
-                <div style="margin-top:150px">
+                <div style="margin-top:10vh">
                     <div class="row">
                         <div class="col-md-12"></div>
                         <div class="col-md-12">
@@ -171,7 +176,7 @@ function test_input($data) {
                     <div class="row">
                         <div class="col-md-12 col"></div>
                         <div class="col-md-12">
-                                <button type="sub" class="btn btn-primary" name="sub">Submit</button>
+                                <button type="sub" class="btn btn-primary" name="sub" >Submit</button>
                         </div>
                     </div>
             </form>
