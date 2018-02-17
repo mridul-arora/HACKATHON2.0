@@ -12,7 +12,11 @@
 </head>
 <style>
     body {
+<<<<<<< HEAD
+        background-image:  url("../Assets/images/bi.jpg");
+=======
         background: #eee;
+>>>>>>> origin/master
     }
 
     .container-fluid {
@@ -35,6 +39,7 @@
         img {
             width: 100%;
         }
+
     }
 
     [class*="row"] {
@@ -45,33 +50,40 @@
     [class*="col-"] {
         background: #efefef;
         border: 1px solid #ddd;
-        padding-top: .75rem;
-        padding-bottom: .75rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         width: 100%;
+    }
+    a{
+        color: black;
     }
 
 
 </style>
 
 <body>
-    <header role="banner">
+    <!--<header role="banner">
         <center>
             <h1>FARMING MACHINES</h1>
         </center>
 
     </header>
-
+-->
     <div class="container-fluid">
         <div class="row">
             <div class="card-deck">
-                <div class="card"><a href="#">
+                <div class="card"><a href="thresher/index.php">
         <img class="card-img-top" src="../Assets/images/tt.jpg" alt="Card image cap">
         <div class="card-block">
           <CENTER><h4 class="card-title">THRESHER</h4></CENTER>
               </div>
                 </a>
             </div>
+<<<<<<< HEAD
+            <div class="card"><a href="harvester/index.php">
+=======
             <div class="card">
+>>>>>>> origin/master
                 <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
                 <div class="card-block">
                     <CENTER>
@@ -79,7 +91,11 @@
                     </CENTER>
                   </div>
             </div>
+<<<<<<< HEAD
+            <div class="card"><a href="conveyor/index.php">
+=======
             <div class="card">
+>>>>>>> origin/master
                 <img class="card-img-top" src="../Assets/images/vc.jpg" alt="Card image cap">
                 <div class="card-block">
                     <CENTER>
