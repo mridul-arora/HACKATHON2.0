@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
     <title>Agriculture</title>
     <meta charset="utf-8">
@@ -196,17 +195,14 @@
     </body>
 </html>
 
-<!DOCTYPE html>
+<!--!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
-    <title>Agriculture</title>
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>>
+<head><link rel="stylesheet" type="text/css" href="../Assets/css/style.css"/>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
     .box {
@@ -238,8 +234,24 @@
         vertical-align: middle;
         color: black;
     }
+    .r
+    {
+        margin-top: -6vh;
+    }
 </style>
 <body>
+    <!--<nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="AboutUs/index.php">About Us</a></li>
+             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>-->
     <!--<div class="container">
         <div class="row">
             <div class="card img-fluid" style="width:500px">
@@ -289,81 +301,47 @@
             </div>
         </div>
     </div>
-    </div>-->
-    <div class="container">
-            <div class="card-deck">
-                <div class="card text-center">
-                    <div class="card-block">
-                        <h4 class="card-title">RICE</h4>
-                        <p class="card-text">
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <img src="../Assets/images/r.jpg">
-                    </div>
-                </div>
-
-                <div class="card text-center">
-                    <div class="card-block">
-                        <h4 class="card-title">WHEAT</h4>
-                         <p class="card-text">
-
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                         <img src="../Assets/images/w.jpg">
-                    </div>
-                </div>
-
-                <div class="card text-center">
-                    <div class="card-block">
-                        <h4 class="card-title">Potatoes</h4>
-                        <p class="card-text">
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                       <img src="../Assets/images/pp.jpg">
-                             </div>
-                </div>
-            </div>
-    <div class="card-deck mt-20">
-        <div class="card text-center">
-            <div class="card-block">
-                <h4 class="card-title">BLACK GRAM</h4>
-                <p class="card-text">
-                </p>
-            </div>
-             <div class="card-footer">
-                 <img src="../Assets/images/bbb.jpg">
-            </div>
-        </div>
-
-        <div class="card text-center">
-            <div class="card-block">
-                <h4 class="card-title">CABBAGE</h4>
-                <p class="card-text">
-
-                </p>
-            </div>
-            <div class="card-footer">
-                <img src="../Assets/images/cab.jpg">
-            </div>
-             </div>
-        <div class="card text-center">
-            <div class="card-block">
-                <h4 class="card-title">BRINJAL</h4>
-                <p class="card-text">
-                </p>
-            </div>
-            <div class="card-footer">
-                 <img src="../Assets/images/br.jpg">
-            </div>
-        </div>
     </div>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Card Image</h2>
+  <p>Image at the top (card-img-top):</p>
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+  <br>
+
+  <p>Image at the bottom (card-img-top):</p>
+  <div class="card" style="width:400px">
+    <div class="card-body">
+      <h4 class="card-title">Jane Doe</h4>
+      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+    <img class="card-img-bottom" src="img_avatar6.png" alt="Card image" style="width:100%">
+  </div>
 </div>
+
+</body>
+</html>
+
 </body>
 
 </html>
-
-
-

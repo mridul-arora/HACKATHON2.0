@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title></title>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>>
+<head><link rel="stylesheet" type="text/css" href="../Assets/css/style.css"/>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
     .box {
@@ -41,8 +37,24 @@
         vertical-align: middle;
         color: black;
     }
+    .r
+    {
+        margin-top: -6vh;
+    }
 </style>
 <body>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="AboutUs/index.php">About Us</a></li>
+             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
     <!--<div class="container">
         <div class="row">
             <div class="card img-fluid" style="width:500px">
@@ -94,74 +106,92 @@
     </div>
     </div>-->
     <div class="container">
+        <div class="row">
             <div class="card-deck">
+                <div class="col-md-4 col-xs-12">
                 <div class="card text-center">
-                    <div class="card-block">
-                        <h4 class="card-title">RICE</h4>
-                        <p class="card-text">
-                        </p>
-                    </div>
+
                     <div class="card-footer">
                         <img src="../Assets/images/r.jpg">
                     </div>
+                     <div class="card-block">
+                        <h4 class="card-title r">RICE</h4>
+                        <p class="card-text">
+                        </p>
+                    </div>
                 </div>
-
+                 </div>
+                <div class="col-md-4 col-xs-12">
                 <div class="card text-center">
+
+                    <div class="card-footer">
+                         <img src="../Assets/images/w.jpg">
+                    </div>
                     <div class="card-block">
-                        <h4 class="card-title">WHEAT</h4>
+                        <h4 class="card-title r">WHEAT</h4>
                          <p class="card-text">
 
                         </p>
                     </div>
-                    <div class="card-footer">
-                         <img src="../Assets/images/w.jpg">
-                    </div>
                 </div>
-
+                </div>
+                <div class="col-md-4 col-xs-12">
                 <div class="card text-center">
+
+                    <div class="card-footer">
+                       <img src="../Assets/images/pp.jpg">
+                    </div>
                     <div class="card-block">
-                        <h4 class="card-title">Potatoes</h4>
+                        <h4 class="card-title r">Potatoes</h4>
                         <p class="card-text">
                         </p>
                     </div>
-                    <div class="card-footer">
-                       <img src="../Assets/images/pp.jpg">
-                             </div>
+
+                </div>
                 </div>
             </div>
-    <div class="card-deck mt-20">
-        <div class="card text-center">
-            <div class="card-block">
-                <h4 class="card-title">BLACK GRAM</h4>
-                <p class="card-text">
-                </p>
-            </div>
-             <div class="card-footer">
-                 <img src="../Assets/images/bbb.jpg">
-            </div>
         </div>
-
+             <div class="card-deck mt-20">
+                 <div class="row">
+                     <div class="col-md-4 col-xs-12">
+                  <div class="card text-center">
+                      <div class="card-footer">
+                            <img src="../Assets/images/bbb.jpg">
+                     </div>
+                  <div class="card-block">
+                      <h4 class="card-title r">BLACK GRAM</h4>
+                            <p class="card-text">
+                        </p>
+                      </div>
+                  </div>
+                     </div>
+                 <div class="col-md-4 col-xs-12">
         <div class="card text-center">
-            <div class="card-block">
-                <h4 class="card-title">CABBAGE</h4>
-                <p class="card-text">
 
-                </p>
-            </div>
             <div class="card-footer">
                 <img src="../Assets/images/cab.jpg">
             </div>
+             <div class="card-block">
+                <h4 class="card-title r">CABBAGE</h4>
+                <p class="card-text">
+
+                </p>
+            </div>
              </div>
+                     </div>
+                     <div class="col-md-4 col-xs-12">
         <div class="card text-center">
-            <div class="card-block">
+
+            <div class="card-footer">
+                 <img src="../Assets/images/br.jpg">
+            </div>
+             <div class="card-block">
                 <h4 class="card-title">BRINJAL</h4>
                 <p class="card-text">
                 </p>
             </div>
-            <div class="card-footer">
-                 <img src="../Assets/images/br.jpg">
-            </div>
         </div>
+
     </div>
 </div>
 </body>
