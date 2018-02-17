@@ -57,16 +57,6 @@
 <body>
     <nav class="navbar navbar-default">
     <div class="container-fluid">
-       <!-- <div class="navbar-header">
-            <a class="navbar-brand" href="#">Rural Development</a>
-        </div>
-            <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
-        </ul>
-      </li>-->
         <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php">Home</a></li>
             <li><a href="AboutUs/index.php">About Us</a></li>
@@ -163,7 +153,7 @@
 
    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:0px 0px;">
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
                 <div class="well">
                     <div class="card-body"><a href="../HACKATHON2.0/Crops/index.php">Crops</a></div>
                 </div>
