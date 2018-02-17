@@ -55,7 +55,7 @@
 
     .submit_center {
         margin-top: 50px;
-        margin-left: 170px;
+        margin-left:150px;
     }
 
     select:focus,
@@ -142,12 +142,10 @@ function test_input($data) {
                                 <label for="price"></label>
                                 <input type="text" class="form" name="price" placeholder="Price">
                             </div><br>
-                        <div class="row">
-                            <div class="col-md-12 col"></div>
-                            <div class="col-md-12">
-                                <button type="sub" class="btn btn-success" name="sub">Submit</button>
-                            </div>
-                        </div>
+
+                                <button type="sub" class="btn btn-danger submit_center" name="sub">Submit</button>
+
+
                 </form>
             </div>
 </body>
