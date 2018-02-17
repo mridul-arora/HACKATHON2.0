@@ -21,25 +21,30 @@
             background-position: center;
             background-size: cover;
         }
+        .row a
+        {
+            text-decoration: none;
+        }
+
     </style>
     <body>
 <div class= "container">
 	     <div class="row">
             <div class="col-md-4">
-				  <a href="#">
+				  <a href="buy_crop.php">
 				  <div class="select_platform_space " style="font-size:20px;">
                   Buy Crops and Vegetables.
                   </div></a>
 			</div>
                <div class="col-md-4">
-		          <a href="wheat_market_price.php">
+		          <a href="rice_market_price.php">
                   <div class="select_platform_space " style="font-size:20px;">
 
                  Current Market Rate
                   </div></a>
             </div>
                <div class="col-md-4">
-				  <a href="#">
+				  <a href="sell_crop.php">
 				  <div class="select_platform_space " style="font-size:20px;">
                 Sell Crops and Vegetables.
                   </div></a>
