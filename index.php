@@ -115,10 +115,7 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-
-=======
-    <!--<div class="container-fluid">
+<div class="container-fluid">
         <div class="row">
             <div class="card-deck">
                 <div class="card"><a href="#">
