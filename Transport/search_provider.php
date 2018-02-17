@@ -11,7 +11,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
+    <style>
+ body{
+            background-image: url("../Assets/images/trp.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
+        .well{
+            margin-left: 3vw;
+            width:30vw;
+            height:auto;
+            text-align: center;
+           box-shadow: 0px 5px 0px 3px;
+            opacity:0.7;
+           font-weight: 1000;
+            border: bold 2px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-bottom: 2vh;
+        }
+        .well:hover{
+         margin-left: 3vw;
+            width:30vw;
+            height:auto;
+            text-align: center;
+           box-shadow: 0px 5px 0px 3px;
+            opacity:1;
+           font-weight: 1000;
+            border: bold 5px;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+    </style>
 <body>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -27,7 +59,7 @@
 
     <?php
         $con = mysqli_connect("localhost","root","","agriculture");
-        $query1 = mysqli_query($con," SELECT * FROM t_user);
+        $query1 = mysqli_query($con," SELECT * FROM t_user");
 
                                             while($row=mysqli_fetch_array($query1))
                                              {

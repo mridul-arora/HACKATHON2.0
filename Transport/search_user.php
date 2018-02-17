@@ -13,7 +13,7 @@
 </head>
     <style>
  body{
-            background-image: url("../Assets/images/wheatwall.jpg");
+            background-image: url("../Assets/images/trp.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }

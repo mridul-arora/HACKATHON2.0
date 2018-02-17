@@ -54,7 +54,7 @@
     }*/
 
     .submit_center {
-        margin-top: -30px;
+        margin-top: 50px;
         margin-left:150px;
     }
 
@@ -143,8 +143,9 @@ function test_input($data) {
                                 <input type="text" class="form" name="price" placeholder="Price">
                             </div><br>
                          <button type="sub" class="btn btn-danger submit_center" name="sub">Submit</button>
-                         <button type="sub" class="btn btn-danger " name="sub1" style="margin-top:100px;margin-left:50px;">Search for transport providers</button>
+
                 </form>
+                <a href="search_provider.php"><button type="sub" class="btn btn-danger " name="sub1" style="margin-top:50px;margin-left:250px;">Search for transport providers</button></a>
             </div>
 </body>
 
