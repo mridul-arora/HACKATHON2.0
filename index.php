@@ -11,11 +11,11 @@
 </head>
 <Style>
     .navbar.navbar-default {
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
 
     body {
-        background-color: lightsalmon;
+        background-color: #b38f00;
     }
 
     .container{
@@ -51,12 +51,14 @@
     .row img{
         width: 25vw;
         margin-top: 1.5vh;
+        border-radius:14px;
     }
     .thumbnail{
         width:30vw;
         height:auto;
         max-width: 40vw;
         opacity:0.7;
+        border-radius: 7px;
     }
      .thumbnail:hover{
         width:30vw;
@@ -172,7 +174,7 @@
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="Transport/index.php">
-          <img src="Assets/images/tra.jpg" alt="transport" >
+          <img src="Assets/images/mt.jpg" alt="transport" >
           <div class="caption">
             <p id="para">Transportation</p>
           </div>
