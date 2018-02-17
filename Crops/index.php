@@ -186,7 +186,7 @@
                  <img src="../Assets/images/br.jpg">
             </div>
              <div class="card-block">
-                <h4 class="card-title">BRINJAL</h4>
+                <h4 class="card-title r">BRINJAL</h4>
                 <p class="card-text">
                 </p>
             </div>
