@@ -92,22 +92,44 @@
 
    <div class="container-fluid">
         <div class="row">
-
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
-
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
                 <div class="well">
                     <div class="card-body"><a href="../HACKATHON2.0/Crops/index.php">Crops</a></div>
                 </div>
-
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin-top:100px;">
+            </div>
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
                 <div class="well">
-                    <div class="card-body">Machines</div>
+                    <div class="card-body"><a href="Mach&Equip/index.php">Machines</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">
+                    <div class="card-body"><a href="../HACKATHON2.0/Weather/index.php">Weather</a></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">
+                    <div class="card-body"><a href="../HACKATHON2.0/Transport/index.php">Transport</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">
+                    <div class="card-body"><a href="../HACKATHON2.0/Labour/index.php">Labour</a></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">
+                    <div class="card-body"><a href="../HACKATHON2.0/Water/index.php">Water</a></div>
                 </div>
 
             </div>
         </div>
     </div>
-    </div>
-</body>
-
+    </body>
 </html>
