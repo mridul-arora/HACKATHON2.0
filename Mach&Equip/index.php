@@ -39,7 +39,7 @@
             <div class="col-md-6">
 				  <a href="available/index.php">
 				  <div class="select_platform_space " style="font-size:20px;">
-                      <bold>AT SECOND HAND RATE</bold>
+                      <bold>AT SECOND HAND RATE.</bold>
                   </div></a>
 			</div>
                <div class="col-md-6">
