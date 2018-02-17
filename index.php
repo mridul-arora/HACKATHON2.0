@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
-    <title>Agriculture</title>
-    <meta charset="utf-8">
+<head><link rel="stylesheet" type="text/css" href="../Assets/css/style.css"/>
+ <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -117,80 +115,6 @@
         </div>
     </div>
 
-    <!--<div class="container-fluid">
-        <div class="row">
-            <div class="card-deck">
-                <div class="card"><a href="#">
-        <img class="card-img-top" src="../Assets/images/tt.jpg" alt="Card image cap">
-        <div class="card-block">
-          <CENTER><h4 class="card-title">THRESHER</h4></CENTER>
-              </div>
-                </a>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <CENTER>
-                        <h4 class="card-title">COMBINE HARVESTER</h4>
-                    </CENTER>
-                  </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="../Assets/images/vc.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <CENTER>
-                        <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
-                    </CENTER>
 
-                    </div>
-            </div>
-        </div>
-    </div>
-    </div>
-  <!-- <div class="container-fluid">
-
-                    </div>-->
-
-   <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Crops/index.php">Crops</a></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="Mach&Equip/index.php">Machines</a></div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Weather/index.php">Weather</a></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Transport/index.php">Transport</a></div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">x
-                    <div class="card-body"><a href="../HACKATHON2.0/Labour/index.php">Labour</a></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Water/index.php">Water</a></div>
-                </div>
-
-            </div>
-        </div>
-    </div>
     </body>
 </html>
