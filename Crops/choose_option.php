@@ -32,10 +32,10 @@
                   </div></a>
 			</div>
                <div class="col-md-4">
-		          <a href="#">
-                  <div class="select_platform_space  " style="font-size:20px;">
+		          <a href="wheat_market_price.php">
+                  <div class="select_platform_space " style="font-size:20px;">
 
-                 Current Market Rate of Crops and Vegetables.
+                 Current Market Rate
                   </div></a>
             </div>
                <div class="col-md-4">
