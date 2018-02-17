@@ -179,3 +179,4 @@
 </div>
 </body>
 </html>
+<?php include"Assets/parts/footer.php";?>
