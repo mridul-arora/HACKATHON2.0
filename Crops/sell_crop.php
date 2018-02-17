@@ -9,13 +9,87 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
-    <style>
-     select:focus,
+
+<style>
+    select:focus,
     option:focus {
         outline: none;
     }
-    </style>
+input:focus,
+    text:focus {
+        outline: none;
+    }
+    body {
+        background-image: url("../Assets/images/buycrops.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .crop_name {
+        border-radius: 25px;
+        height: 40px;
+        width: 18vw;
+        border: 2px solid #dcdbdb;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-top: 40px;
+        text-align: center;
+         box-shadow: grey 0px 2px 0px 1px;
+    }
+
+    .form {
+         box-shadow: grey 0px 2px 0px 1px;
+        border-radius: 25px;
+        height: 2.5em;
+        width: 18vw;
+        border: 2px solid #dcdbdb;
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: center;
+        font-size: 2.5vh;
+        margin-top: 1vh;
+    }
+
+    .sub1 {
+         box-shadow: #331a00 0px 2px 0px 1px;
+        width:18vw;
+        height:auto;
+        margin-top: 1vh;
+        border-radius: 25px;
+        background-color:  #331a00;
+        color:white;
+    }
+    .sub{
+        margin-top: 1vh;
+        width:18vw;
+        box-shadow: #331a00 0px 2px 0px 1px;
+        border-radius: 25px;
+        background-color:  #331a00;
+        color:white;
+    }
+
+    .row{
+        text-align: center;
+        vertical-align: middle;
+
+    }
+    .options{
+
+    }
+</style>
+
 <body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="AboutUs/index.php">About Us</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
     <?php
 // define variables and set to empty valuesS
 $quanErr = $pricErr ="";
