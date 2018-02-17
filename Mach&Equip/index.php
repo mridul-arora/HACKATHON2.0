@@ -12,11 +12,9 @@
 </head>
 <style>
     body {
-<<<<<<< HEAD
-        background-image:  url("../Assets/images/bi.jpg");
-=======
-        background: #eee;
->>>>>>> origin/master
+
+        background-image:  url("../Assets/images/bcr.jpg");
+
     }
 
     .container-fluid {
@@ -42,6 +40,8 @@
 
     }
 
+    }
+
     [class*="row"] {
         margin-bottom: 1em;
         justify-content: center;
@@ -56,6 +56,10 @@
     }
     a{
         color: black;
+
+    }
+    a:hover{
+        color: black;
     }
 
 
@@ -69,6 +73,7 @@
 
     </header>
 -->
+
     <div class="container-fluid">
         <div class="row">
             <div class="card-deck">
@@ -79,11 +84,8 @@
               </div>
                 </a>
             </div>
-<<<<<<< HEAD
+
             <div class="card"><a href="harvester/index.php">
-=======
-            <div class="card">
->>>>>>> origin/master
                 <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
                 <div class="card-block">
                     <CENTER>
@@ -91,11 +93,9 @@
                     </CENTER>
                   </div>
             </div>
-<<<<<<< HEAD
+
             <div class="card"><a href="conveyor/index.php">
-=======
-            <div class="card">
->>>>>>> origin/master
+
                 <img class="card-img-top" src="../Assets/images/vc.jpg" alt="Card image cap">
                 <div class="card-block">
                     <CENTER>
@@ -106,6 +106,8 @@
         </div>
     </div>
     </div>
+        </div>
+
 </body>
 
 </html>
