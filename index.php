@@ -11,6 +11,7 @@
 </head>
 <Style>
     .navbar.navbar-default {
+<<<<<<< HEAD
         margin-bottom: 0;
     }
      body {
@@ -20,15 +21,27 @@
     .container-fluid {
        /* max-width: 1200px;*/
 
-    body {
-        background-color: darkolivegreen;
+=======
+        margin-bottom: 0px;
     }
 
+>>>>>>> origin/master
+    body {
+        background-color: #b38f00;
+    }
+
+<<<<<<< HEAD
     .container-fluid {
 
 
+=======
+    .container{
+        margin-top: 7vh;
     }
-
+    .row{
+        margin-bottom: 2vh;
+>>>>>>> origin/master
+    }
     header {
         background: #563d7c;
         padding: 2em 1em;
@@ -38,6 +51,7 @@
             font-weight: 200;
         }
     }
+<<<<<<< HEAD
 
 
     .card {
@@ -46,13 +60,20 @@
         img {
             width: 100%;
         }
+=======
+    #para{
+        text-align: center;
+        font-size: 3vh;
+        text-decoration: none;
+        color:black;
+        margin-bottom: -1vh;
+>>>>>>> origin/master
+    }
+    #para:hover{
+        text-decoration: none;
     }
 
-    [class*="row"] {
-        margin-bottom: 1em;
-        justify-content: center;
-    }
-
+<<<<<<< HEAD
     [class*="col-"] {
         background: #efefef;
         border: 1px solid #ddd;
@@ -60,19 +81,45 @@
         padding-bottom: .75rem;
 
 
+=======
+>>>>>>> origin/master
     .minus {
         margin-top: -6vh;
         text-align: center;
     }
     .row img{
+<<<<<<< HEAD
 
         width: 100%;
+=======
+        width: 25vw;
+        margin-top: 1.5vh;
+        border-radius:14px;
+    }
+    .thumbnail{
+        width:30vw;
+        height:auto;
+        max-width: 40vw;
+        opacity:0.7;
+        border-radius: 7px;
+    }
+     .thumbnail:hover{
+        width:30vw;
+        height:auto;
+        max-width: 40vw;
+        opacity:1;
+         box-shadow: 0vh 1vh 0vw 0.5vw;
+         border: black 4px;
+         box-shadow: black;
+
+>>>>>>> origin/master
     }
 
 </Style>
 
 <body>
     <nav class="navbar navbar-default">
+<<<<<<< HEAD
 
     <!--<div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
@@ -85,6 +132,8 @@
     </div>
 </nav>-->
 
+=======
+>>>>>>> origin/master
         <div class="container-fluid">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.php">Home</a></li>
@@ -147,6 +196,7 @@
         </div>
     </div>
 
+<<<<<<< HEAD
 
     <!--<div class="container-fluid">
         <div class="row">
@@ -368,6 +418,8 @@
     </div>
     <img class="card-img-bottom" src="img_avatar6.png" alt="Card image" style="width:100%">
 =======
+=======
+>>>>>>> origin/master
    <div class="container">
   <div class="row">
     <div class="col-md-6">
@@ -375,7 +427,7 @@
         <a href="Weather/index.php">
           <img src="Assets/images/sky.jpg" alt="Lights">
           <div class="caption">
-            <p>Weather Conditions</p>
+            <p id="para">Weather Conditions</p>
           </div>
         </a>
       </div>
@@ -385,7 +437,7 @@
         <a href="Crops/index.php">
           <img src="Assets/images/buycrops.jpg" alt="Fjords">
           <div class="caption">
-            <p>Current Market Price</p>
+            <p id ="para">Current Market Price</p>
           </div>
         </a>
       </div>
@@ -397,7 +449,7 @@
         <a href="Mach&Equip/index.php">
           <img src="Assets/images/ch.jpg" alt="machines" >
           <div class="caption">
-            <p>Machines & Equipments</p>
+            <p id="para">Machines & Equipments</p>
           </div>
         </a>
       </div>
@@ -405,23 +457,14 @@
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="Transport/index.php">
-          <img src="Assets/images/12.jpg" alt="transport" >
+          <img src="Assets/images/mt.jpg" alt="transport" >
           <div class="caption">
-            <p>Transportation</p>
+            <p id="para">Transportation</p>
           </div>
         </a>
       </div>
     </div>
->>>>>>> origin/master
   </div>
 </div>
-
 </body>
-<<<<<<< HEAD
-</html>
-
-</body>
-=======
->>>>>>> origin/master
-
 </html>

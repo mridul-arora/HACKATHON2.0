@@ -123,6 +123,8 @@ It also looks up to solve the problems of labour, water availability and accessi
     machines
     market price:crops
     weather
+    transport
+    
     training
     google translator
     

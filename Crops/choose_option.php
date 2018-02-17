@@ -31,21 +31,14 @@
 <div class= "container">
 	     <div class="row">
             <div class="col-md-6">
-<<<<<<< HEAD
 				  <a href="#">
-=======
-				  <a href="buy_crop.php">
->>>>>>> origin/master
 				  <div class="select_platform_space " style="font-size:20px;">
                   Buy Crops and Vegetables.
                   </div></a>
 			</div>
                <div class="col-md-6">
-<<<<<<< HEAD
-		          <a href="wheat_market_price.php">
-=======
-		          <a href="rice_market_price.php">
->>>>>>> origin/master
+      <a href="wheat_market_price.php">
+
                   <div class="select_platform_space " style="font-size:20px;">
                   Sell crops and vegetables and current market rate
                   </div></a>
