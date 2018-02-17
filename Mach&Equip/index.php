@@ -84,7 +84,7 @@ header {
       <div class="card">
         <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
         <div class="card-block">
-          <CENTER><h4 class="card-title">COMBINE HARVESTER</h4></CENTER>
+          <CENTER><h4 class="card-title">COMBINE HARVESTER.</h4></CENTER>
           <!--<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
         </div>
