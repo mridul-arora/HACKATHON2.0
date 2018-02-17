@@ -124,10 +124,10 @@
                 <div class="col-md-4 col-xs-12">
                 <div class="card text-center">
 
-                    <div class="card-footer">
+                     <a href="choose_option1.php"><div class="card-footer">
                          <img src="../Assets/images/w.jpg">
-                    </div>
-                    <div class="card-block">
+                         </div></a>
+                         <div class="card-block">
                         <h4 class="card-title r">WHEAT</h4>
                          <p class="card-text">
 
