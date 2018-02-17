@@ -115,6 +115,155 @@
         </div>
     </div>
 
+<<<<<<< HEAD
 
+=======
+    <!--<div class="container-fluid">
+        <div class="row">
+            <div class="card-deck">
+                <div class="card"><a href="#">
+        <img class="card-img-top" src="../Assets/images/tt.jpg" alt="Card image cap">
+        <div class="card-block">
+          <CENTER><h4 class="card-title">THRESHER</h4></CENTER>
+              </div>
+                </a>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <CENTER>
+                        <h4 class="card-title">COMBINE HARVESTER</h4>
+                    </CENTER>
+                  </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../Assets/images/vc.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <CENTER>
+                        <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
+                    </CENTER>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  <!-- <div class="container-fluid">
+
+                    </div>-->
+
+   <!--<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">
+                    <div class="card-body"><a href="../HACKATHON2.0/Crops/index.php">Crops</a></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">
+                    <div class="card-body"><a href="Mach&Equip/index.php">Machines</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">
+                    <div class="card-body"><a href="../HACKATHON2.0/Weather/index.php">Weather</a></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">
+                    <div class="card-body"><a href="../HACKATHON2.0/Transport/index.php">Transport</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">x
+                    <div class="card-body"><a href="../HACKATHON2.0/Labour/index.php">Labour</a></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
+                <div class="well">
+                    <div class="card-body"><a href="../HACKATHON2.0/Water/index.php">Water</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+    <div class="container">
+            <div class="card-deck">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">RICE</h4>
+                        <p class="card-text">
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <img src="../Assets/images/r.jpg">
+                    </div>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">WHEAT</h4>
+                         <p class="card-text">
+
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                         <img src="../Assets/images/w.jpg">
+                    </div>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">Potatoes</h4>
+                        <p class="card-text">
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                       <img src="../Assets/images/pp.jpg">
+                             </div>
+                </div>
+            </div>
+    <div class="card-deck mt-20">
+        <div class="card text-center">
+            <div class="card-block">
+                <h4 class="card-title">BLACK GRAM</h4>
+                <p class="card-text">
+                </p>
+            </div>
+             <div class="card-footer">
+                 <img src="../Assets/images/bbb.jpg">
+            </div>
+        </div>
+
+        <div class="card text-center">
+            <div class="card-block">
+                <h4 class="card-title">CABBAGE</h4>
+                <p class="card-text">
+
+                </p>
+            </div>
+            <div class="card-footer">
+                <img src="../Assets/images/cab.jpg">
+            </div>
+             </div>
+        <div class="card text-center">
+            <div class="card-block">
+                <h4 class="card-title">BRINJAL</h4>
+                <p class="card-text">
+                </p>
+            </div>
+            <div class="card-footer">
+                 <img src="../Assets/images/br.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+>>>>>>> origin/master
     </body>
 </html>
