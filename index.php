@@ -53,7 +53,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="Assets/images/cc.jpg" alt="Image cc" style="width:100%;">
+                        <img src="Assets/images/rrr.jpg" alt="Image cc" style="width:100%;">
                         <div class="carousel-caption">
                             <h3></h3>
                             <p></p>
@@ -90,7 +90,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <!--<div class="container-fluid">
         <div class="row">
             <div class="card-deck">
                 <div class="card"><a href="#">
@@ -114,11 +114,8 @@
                     <CENTER>
                         <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
                     </CENTER>
-                    </div>
-            </div>
-        </div>
-    </div>
-    </div>
+                    </div>-->
+
    <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin:0px 0px;">

@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <title></title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+     <title>Bootstrap Card</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <style>
     body {
@@ -96,7 +96,7 @@
                 </div>
                 </a>
             </div>
-            <div class="card">
+            <div class="card"><a href="#">
                 <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
                 <div class="card-block">
                     <CENTER>
@@ -105,8 +105,9 @@
                     <!--<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
                 </div>
+                </a>
             </div>
-            <div class="card">
+            <div class="card"><a href="thresher/index.php">
                 <img class="card-img-top" src="../Assets/images/vc.jpg" alt="Card image cap">
                 <div class="card-block">
                     <CENTER>
@@ -115,10 +116,10 @@
                     <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
                 </div>
+                </a>
             </div>
         </div>
     </div>
     </div>
 </body>
-
 </html>
