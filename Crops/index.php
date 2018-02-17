@@ -186,7 +186,11 @@
                  <img src="../Assets/images/br.jpg">
             </div>
              <div class="card-block">
+<<<<<<< HEAD
                 <h4 class="card-title">BRINJAL</h4>
+=======
+                <h4 class="card-title r">BRINJAL</h4>
+>>>>>>> origin/master
                 <p class="card-text">
                 </p>
             </div>
