@@ -123,6 +123,14 @@ function test_input($data) {
                                 <input type="text" class="form" name="phone_no" placeholder="Phone No">
                             </div><br></div>
                     </div>
+                     <div class="row">
+                        <div class="col-md-12"></div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="password"></label>
+                                <input type="text" class="form" name="password" placeholder="Password"><span class="error">* <?php echo $nameErr;?></span>
+                            </div><br></div>
+                    </div>
                     <div class="row">
 
                       <div class="col-md-12">
