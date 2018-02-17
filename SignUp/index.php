@@ -64,8 +64,8 @@
     }
     .col-md-6{text-align: center;
     }
-    .btn-primary{
-        margin-bottom: 5vh;
+    .btn-success{
+        margin-bottom: 7vh;
     }
 </style>
 

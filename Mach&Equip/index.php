@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-     <title>Bootstrap Card</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <style>
     body {
-        background: #eee
+        background: #eee;
     }
 
     .container-fluid {
@@ -50,28 +50,6 @@
         width: 100%;
     }
 
-    .modal {
-        display: none;
-        /* Hidden by default */
-        position: fixed;
-        /* Stay in place */
-        z-index: 1;
-        /* Sit on top */
-        padding-top: 100px;
-        /* Location of the box */
-        left: 0;
-        top: 0;
-        width: 100%;
-        /* Full width */
-        height: 100%;
-        /* Full height */
-        overflow: auto;
-        /* Enable scroll if needed */
-        background-color: rgb(0, 0, 0);
-        /* Fallback color */
-        background-color: rgba(0, 0, 0, 0.4);
-        /* Black w/ opacity */
-    }
 
 </style>
 
@@ -90,36 +68,28 @@
         <img class="card-img-top" src="../Assets/images/tt.jpg" alt="Card image cap">
         <div class="card-block">
           <CENTER><h4 class="card-title">THRESHER</h4></CENTER>
-          <!--<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-<center><a href="#" class="btn btn-primary">THRESHER</a></center>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                </div>
+              </div>
                 </a>
             </div>
-            <div class="card"><a href="#">
+            <div class="card">
                 <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
                 <div class="card-block">
                     <CENTER>
                         <h4 class="card-title">COMBINE HARVESTER</h4>
                     </CENTER>
-                    <!--<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                </div>
-                </a>
+                  </div>
             </div>
-            <div class="card"><a href="thresher/index.php">
+            <div class="card">
                 <img class="card-img-top" src="../Assets/images/vc.jpg" alt="Card image cap">
                 <div class="card-block">
                     <CENTER>
                         <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
                     </CENTER>
-                    <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                </div>
-                </a>
+                    </div>
             </div>
         </div>
     </div>
     </div>
 </body>
+
 </html>
