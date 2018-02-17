@@ -12,7 +12,7 @@ if(isset($_POST['sub']))
    $e=$_POST['price];
 
 
-     $query=mysqli_query($con,"INSERT INTO rice_mp (dist_name,mandi_name,mp)VALUES('$id','$c','$a','$b','$e'");
+     $query=mysqli_query($con,"INSERT INTO rice_mp (dist_name,mandi_name,mp)VALUES('$id','$c','$a','$b','$e')");
     if($query)
     {
         header("Location:index.php");

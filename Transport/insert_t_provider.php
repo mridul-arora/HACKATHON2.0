@@ -4,7 +4,7 @@ session_id("session2");
 session_start();
  $no=$_SESSION['phone_no'];
 $id=$_SESSION['user_id'];
-echo "hello";
+echo "$no";
 if(isset($_POST['sub']))
 {
    $a=$_POST['wt'];
@@ -13,12 +13,14 @@ if(isset($_POST['sub']))
    $c=$_POST['price'];
     $query1=mysqli_query($con,"SELECT*  FROM user WHERE user_id='$id'");
 					while($row=mysqli_fetch_array($query1))
-						{     $name=$row[name];
-							$query=mysqli_query($con,"INSERT INTO t_provider (name,phone_no,wt,dist,price,time)VALUES('$name','$no','$a','$b','$g','$c')");
+						{
+                        $name1=$row[f_name];
+                        echo "$name1";
+							$query=mysqli_query($con,"INSERT INTO t_provider (name,phone_no,wt,dist,price,time)VALUES('$name1','$no','$a','$b','$g','$c')");
 							if($query)
 								{
-
-									header("Location:ad_select_platform.php");
+                                 echo "<script type='text/javascript'>alert('Your data has been added succesfully!');</script>";
+									header("Location:transport_provider.php");
 								}
 						}
 			}

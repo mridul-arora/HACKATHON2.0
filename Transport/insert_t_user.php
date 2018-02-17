@@ -17,7 +17,7 @@ if(isset($_POST['sub']))
 						{
                         echo "hello";
 
-                        $name=$row[name];
+                        $name=$row[f_name];
 							$query=mysqli_query($con,"INSERT INTO t_user(name,phone_no,wt,dist,price,time)VALUES('$name','$no','$a','$b','$g','$c')");
 							if($query)
 								{
