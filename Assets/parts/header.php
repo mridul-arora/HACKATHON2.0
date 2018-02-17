@@ -16,3 +16,8 @@
         </ul>
     </div>
 </nav>
+<style>
+    body{
+        margin-bottom: 5vh;
+    }
+</style>

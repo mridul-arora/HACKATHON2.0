@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -180,3 +182,4 @@ date_default_timezone_set($data1->timezone);
 >>>>>>> origin/master
 </body>
 </html>
+>>>>>>> origin/master

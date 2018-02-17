@@ -1,33 +1,28 @@
 <html>
-   <head>
-    <link rel="stylesheet" type="text/css" href="../Assets/css/style.css"/>
- <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+    <head>
+    <?php include "../Assets/parts/header.php";?>
+    </head>
     <style>
 
       .select_platform_space {
-	border:2px solid white;
+	border:2px solid black;
 	margin-top:10em;
 	padding:45px;
    	text-align:center;
     text-decoration: none;
-	color:white;
-    font-weight: 1000;
+	color:black;
+    font-weight:1000;
 	margin-left:2em;
 	margin-right:2em;
 	border-radius: 25px;
 
 }
         a:hover{
-            color: white;
+            color: black;
             text-decoration: none;
         }
         body{
-            background-image: url("../Assets/images/urb.jpg");
+            background-image: url("../Assets/images/abc.jpg");
            background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -35,6 +30,7 @@
 
     </style>
     <body>
+<<<<<<< HEAD
         <nav class="navbar navbar-default">
     <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
@@ -46,6 +42,8 @@
     </div>
 </nav>
 
+=======
+>>>>>>> origin/master
 <div class= "container">
     <div class="row">
         <div class="col-md-12"></div>
@@ -53,24 +51,18 @@
     </div>
 	     <div class="row">
             <div class="col-md-6">
-				  <a href="available/index.php">
+				  <a href="providers.php">
 				  <div class="select_platform_space " style="font-size:20px;">
-                      <bold>AT SECOND HAND RATE.</bold>
+                     <b> Give for rent</b>
                   </div></a>
 			</div>
                <div class="col-md-6">
-		          <a href="nee/index.php">
+		          <a href="users.php">
                   <div class="select_platform_space " style="font-size:20px;">
 
-                      <bold>FOR RENTING</bold>
+                      <b>Want on rent</b>
                   </div></a>
             </div>
-               <!--<div class="col-md-4">
-				  <a href="#">
-				  <div class="select_platform_space " style="font-size:20px;">
-                Sell Crops and Vegetables.
-                  </div></a>
-			</div>-->
 	     </div>
       </div>
 </body>
