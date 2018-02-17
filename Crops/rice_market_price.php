@@ -53,7 +53,7 @@
 
 
     .crop_name {
-        border-radius: 25px;
+        border-radius: 5px;
         height: 40px;
         width: 18vw;
         border: 2px solid #dcdbdb;
@@ -66,7 +66,7 @@
 
     .form {
          box-shadow: grey 0px 2px 0px 1px;
-        border-radius: 25px;
+        border-radius: 5px;
         height: 2.5em;
         width: 18vw;
         border: 2px solid #dcdbdb;

@@ -10,8 +10,8 @@
 	padding:45px;
    	text-align:center;
 	color:white;
-	margin-left:2em;
-	margin-right:2em;
+	margin-left:5em;
+	margin-right:5em;
 	border-radius: 25px;
           font-weight:1000;
 
