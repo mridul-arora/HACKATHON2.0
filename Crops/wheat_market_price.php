@@ -41,6 +41,84 @@
             text-decoration: none;
             border-radius: 25px;
         }
+         select:focus,
+    option:focus {
+        outline: none;
+    }
+input:focus,
+    text:focus {
+        outline: none;
+    }
+
+    .crop_name {
+        border-radius: 25px;
+        height: 40px;
+        width: 18vw;
+        border: 2px solid #dcdbdb;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-top: 40px;
+        text-align: center;
+         box-shadow: grey 0px 2px 0px 1px;
+        margin-left:100px;
+        margin-right: 100px;
+    }
+
+    .form {
+         box-shadow: grey 0px 2px 0px 1px;
+        border-radius: 25px;
+        height: 2.5em;
+        width: 18vw;
+        border: 2px solid #dcdbdb;
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: center;
+        font-size: 2.5vh;
+        margin-top: 1vh;
+        margin-right: 100px;
+        margin-left:100px;
+    }
+
+    .sub1 {
+         box-shadow: #331a00 0px 2px 0px 1px;
+        width:18vw;
+        height:auto;
+        margin-top: 1vh;
+        border-radius: 25px;
+        background-color:  #331a00;
+        color:white;
+        margin-left:100px;
+    }
+    .sub{
+        margin-top: 1vh;
+        width:18vw;
+        box-shadow: #331a00 0px 2px 0px 1px;
+        border-radius: 25px;
+        background-color:  #331a00;
+        color:white;
+    }
+
+    .row{
+        text-align: center;
+        vertical-align: middle;
+
+    }
+    .options{
+
+    }
+        .submit_center
+        {
+            margin-left:200px;
+             background-color:  #331a00;
+        color:white;
+        }
+        .submit_center1
+        {
+            margin-left:350px;
+            margin-top: 100px;
+             background-color:  #331a00;
+        color:white;
+        }
     </style>
 <body>
 <nav class="navbar navbar-default">
@@ -97,7 +175,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 ?>
 
     <form method="POST" action="insert_sell_crop.php">
-            <select name="crop_name" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;margin-top:40px;" placeholder="select crop"><br>
+            <select name="crop_name" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;margin-top:40px;margin-left:100px;" placeholder="select crop"><br>
                              <option value="1" style="opacity:0.7;">Select your crop</option>
                              <option value="Wheat">Wheat</option>
                              <option value="Rice">Rice</option>
@@ -105,7 +183,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                              <option value="Brinjal">Brinjal</option>
                              <option value="Cabbage">Cabbage</option>
                              <option value="Black gram">Black gram</option>
-            </select><br>
+            </select><br><br>
         <div class="form-group">
                                 <label for="quantity"></label>
                                 <input type="text" class="form" name="quantity" placeholder="Quantity in kg">
@@ -115,14 +193,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                                 <input type="text" class="form" name="price" placeholder="price per kg">
         </div><br>
 
-    <div class="submit_center">
-        <button type="sub" class="btn btn-primary" name="sub">Submit</button>
+    <div >
+        <button type="sub" class="btn submit_center " name="sub">Submit</button>
     </div>
          </form>
 
     <div>
         <form action="search_wheat_sell.php">
-        <button type="sub" class="btn btn-primary" name="sub1">Search for buyers</button>
+        <button type="sub" class="btn  submit_center1" name="sub1">Search for buyers</button>
         </form>
     </div>
     </div>

@@ -12,7 +12,11 @@ if(isset($_POST['sub']))
 
 
      $query=mysqli_query($con,"INSERT INTO crop_buyer (user_id,crop_name,quantity,price)VALUES('$id','$c','$a','$b')");
-    echo "hello";
+    if($query)
+    {
+        header("Location:buy_crop.php");
+
+    }
 
    }
 ?>

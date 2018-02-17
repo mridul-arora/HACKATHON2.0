@@ -27,7 +27,7 @@
         margin: 2vh 3vw;
     }
     .e {
-        border: 4px solid black;
+        border: 2px solid black;
 
     }
     .card{
