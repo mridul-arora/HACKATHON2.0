@@ -33,3 +33,26 @@
             border-radius: 25px;
         }
     </style>
+    <div class="container-fluid">
+       <div class="row contact">
+	        <div class="col-md-2">
+			    <span class="glyphicon glyphicon-bookmark" style="font-size:70px;" ></span>
+			 </div>
+			 <div class="col-md-3">
+			    <i class="fa fa-skype icon_space" style="font-size:30px;" ></i><br><div class="contact_info">loremipsum</div>
+			 </div>
+			 <div class="col-md-3">
+			    <span class="glyphicon glyphicon-envelope" style="font-size:30px;" ></span><br><div class="contact_info">ad_farm@gmail.com</div>
+			 </div>
+			 <div class="col-md-2">
+			    <span class="glyphicon glyphicon-earphone" style="font-size:30px;" ></span><div class="contact_info">123445678</div>
+			 </div>
+			 <div class="col md-2">
+			 <i class="fa fa-twitter icon_space" style="font-size:30px"></i>
+			 <i class="fa fa-linkedin icon_space" style="font-size:30px"></i>
+			 <i class="fa fa-facebook icon_space" style="font-size:30px"></i>
+			 <i class="fa fa-instagram icon_space" style="font-size:30px"></i><br><br>
+			 <!--<span class="glyphicon glyphicon-earphone" style="font-size:30px" ></span> -->
+			 </div>
+			  
+	    </div>
