@@ -61,5 +61,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         <button type="sub" class="btn btn-primary" name="sub">Submit</button>
     </div>
          </form>
+
+    <div>
+        <form action="search_wheat_sell.php">
+        <button type="sub" class="btn btn-primary" name="sub1">Search for buyers</button>
+        </form>
+    </div>
+
     </body>
 </html>
