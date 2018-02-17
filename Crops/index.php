@@ -2,13 +2,15 @@
 <html lang="en">
 
 <head>
-    <title>Crops</title>
-    <link rel="stylesheet" type="text/css" href="../Assets/css/style.css" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+    <?php include "../Assets/parts/header.php";?>
+<title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>>
 </head>
 <style>
     .box {
@@ -26,48 +28,22 @@
         text-align: right;
     }
 
-
-    .img-fluid {
+    .container {
+        margin: 2vh 3vw;
+    }
+    .img-fluid{
         border: 0;
     }
-
-    .card {
+    .card{
         margin: 2vh 2vw;
     }
-
-    .card-title {
-        text-align: center;
+    .card-title{
+      text-align: center;
+        vertical-align: middle;
         color: black;
-        margin-top: -6vh;
-    }
-    .card-title1 {
-        text-align: center;
-        color: black;
-        margin-top: -17vh;
-    }
-    .black{
-        width:85%;
-       .card-title {
-        text-align: center;
-        color: black;
-        margin-top: -6vh;
-    }
     }
 </style>
-
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="AboutUs/index.php">About Us</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
-
     <!--<div class="container">
         <div class="row">
             <div class="card img-fluid" style="width:500px">
@@ -119,60 +95,78 @@
     </div>
     </div>-->
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
+            <div class="card-deck">
                 <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">RICE</h4>
+                        <p class="card-text">
+                        </p>
+                    </div>
                     <div class="card-footer">
                         <img src="../Assets/images/r.jpg">
                     </div>
-                    <h4 class="card-title">RICE</h4>
                 </div>
-            </div>
-            <div class="col-md-4">
+
                 <div class="card text-center">
-                    <div class="card-footer">
-                        <img src="../Assets/images/w.jpg">
+                    <div class="card-block">
+                        <h4 class="card-title">WHEAT</h4>
+                         <p class="card-text">
+
+                        </p>
                     </div>
-                    <h4 class="card-title">WHEAT</h4>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card text-center">
                     <div class="card-footer">
-                        <img src="../Assets/images/pp.jpg">
+                         <img src="../Assets/images/w.jpg">
                     </div>
-                    <h4 class="card-title">POTATOES</h4>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
+
                 <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">Potatoes</h4>
+                        <p class="card-text">
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                       <img src="../Assets/images/pp.jpg">
+                             </div>
                 </div>
-                <div class="card-footer black">
-                    <img src="../Assets/images/bbbb.jpg">
-                </div>
-                <h4 class="card-title1">BLACK GRAM</h4>
             </div>
-             <div class="col-md-4">
-            <div class="card text-center">
-                <div class="card-footer">
-                    <img src="../Assets/images/cab.jpg">
-                </div>
-                  <h4 class="card-title">CABBAGE</h4>
+    <div class="card-deck mt-20">
+        <div class="card text-center">
+            <div class="card-block">
+                <h4 class="card-title">BLACK GRAM</h4>
+                <p class="card-text">
+                </p>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-                <div class="card-footer">
-                    <img src="../Assets/images/br.jpg">
-                </div>
-                 <h4 class="card-title">BRINJAL</h4>
+             <div class="card-footer">
+                 <img src="../Assets/images/bbb.jpg">
             </div>
-        </div>
         </div>
 
+        <div class="card text-center">
+            <div class="card-block">
+                <h4 class="card-title">CABBAGE</h4>
+                <p class="card-text">
+
+                </p>
+            </div>
+            <div class="card-footer">
+                <img src="../Assets/images/cab.jpg">
+            </div>
+             </div>
+        <div class="card text-center">
+            <div class="card-block">
+                <h4 class="card-title">BRINJAL</h4>
+                <p class="card-text">
+                </p>
+            </div>
+            <div class="card-footer">
+                 <img src="../Assets/images/br.jpg">
+            </div>
+        </div>
     </div>
+</div>
 </body>
 
 </html>
+
+
