@@ -9,50 +9,40 @@
 	margin-top:10em;
 	padding:45px;
    	text-align:center;
-    text-decoration: none;
 	color:white;
-	margin-left:2em;
-	margin-right:2em;
+	margin-left:3em;
+	margin-right:3em;
 	border-radius: 25px;
 
 }
-        a:hover{
-            color: white;
-        }
         body{
-            background-image: url("../Assets/images/tran.jpg");
+            background-image: url("../Assets/images/grass.jpg");
            background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+        }
+        .row a
+        {
+            text-decoration: none;
         }
 
     </style>
     <body>
 <div class= "container">
-    <div class="row">
-        <div class="col-md-12"></div>
-        <CENTER><h1></h1></CENTER>
-    </div>
 	     <div class="row">
             <div class="col-md-6">
-				  <a href="available/index.php">
+				  <a href="buy_crop.php">
 				  <div class="select_platform_space " style="font-size:20px;">
-                      <bold>AVAILABLE FOR SERVICE</bold>
+                  Buy Crops and Vegetables.
                   </div></a>
 			</div>
                <div class="col-md-6">
-		          <a href="nee/index.php">
+		          <a href="wheat_market_price.php">
                   <div class="select_platform_space " style="font-size:20px;">
-
-                      <bold>IN NEED OF SERVICE</bold>
+                 Sell Crops and Vegetables and
+                 Current Market Rate
                   </div></a>
             </div>
-               <!--<div class="col-md-4">
-				  <a href="#">
-				  <div class="select_platform_space " style="font-size:20px;">
-                Sell Crops and Vegetables.
-                  </div></a>
-			</div>-->
 	     </div>
       </div>
 </body>

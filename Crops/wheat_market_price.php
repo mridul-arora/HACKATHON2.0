@@ -54,7 +54,7 @@
         </ul>
     </div>
 </nav>
-
+<div class="col-md-6">
     <?php
         $con = mysqli_connect("localhost","root","","agriculture");
         $query1 = mysqli_query($con," SELECT * FROM wheat_mp ");
@@ -72,7 +72,60 @@
         <?php
              }
         ?>
+    </div>
+    <div class="col-md-6">
+     <?php
+// define variables and set to empty valuesS
+$quanErr = $pricErr ="";
 
+if ($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+        if (empty($_POST["quantity"]))
+            {
+                $nameErr = "quantity is required";
+            }
+        else
+            {
+                $name = test_input($_POST["quantity"]);
+                // check if name only contains letters and whitespace.
+                if (!preg_match("/^[0-9 ]*$/",$name))
+                {
+                $nameErr = "Only digits allowed";
+                }
+            }
+     }
+?>
+
+    <form method="POST" action="insert_sell_crop.php">
+            <select name="crop_name" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;margin-top:40px;" placeholder="select crop"><br>
+                             <option value="1" style="opacity:0.7;">Select your crop</option>
+                             <option value="Wheat">Wheat</option>
+                             <option value="Rice">Rice</option>
+                             <option value="Potato">Potato</option>
+                             <option value="Brinjal">Brinjal</option>
+                             <option value="Cabbage">Cabbage</option>
+                             <option value="Black gram">Black gram</option>
+            </select><br>
+        <div class="form-group">
+                                <label for="quantity"></label>
+                                <input type="text" class="form" name="quantity" placeholder="Quantity in kg">
+        </div><br>
+        <div class="form-group">
+                                <label for="price"></label>
+                                <input type="text" class="form" name="price" placeholder="price per kg">
+        </div><br>
+
+    <div class="submit_center">
+        <button type="sub" class="btn btn-primary" name="sub">Submit</button>
+    </div>
+         </form>
+
+    <div>
+        <form action="search_wheat_sell.php">
+        <button type="sub" class="btn btn-primary" name="sub1">Search for buyers</button>
+        </form>
+    </div>
+    </div>
 </body>
 
 </html>
