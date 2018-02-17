@@ -11,7 +11,7 @@
 </head>
     <style>
         body{
-            background-image: url("../Assets/images/wheatwall.jpg");
+            background-image: url("../Assets/images/rice.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }
