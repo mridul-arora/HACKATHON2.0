@@ -1,114 +1,94 @@
 
+<?php
+
+/*$api_url='https://api.darksky.net/forecast/e1faeca74abbf5d10832e4fa804bff35/37';
+
+$forecast=$json_decode(file_get_contents($api_url));
+echo "neha";
+echo '<pre>';
+print_r($forecast);
+echo '</pre>';*/
+
+$coordinates="30.3165,78.0322";
+$json_url = "https://api.darksky.net/forecast/e1faeca74abbf5d10832e4fa804bff35/".$coordinates;
+$json = file_get_contents($json_url);
+/*$json=str_replace('},
+
+]',"}
+
+]",$json);*/
+$data1 = json_decode($json);
+/*echo "<pre>";
+print_r($data1);
+echo "</pre>";*/
+
+//current conditions
+$temperature_current=$data1->currently->temperature;
+$temperature_current_c=round(($temperature_current - 32)*.5556);
+$summary_current=$data1->currently->summary;
+$windspeed_current=round($data1->currently->windSpeed);
+$humidity_current=$data1->currently->humidity*100;
+//set timezone
+date_default_timezone_set($data1->timezone);
+?>
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<head>
+<title>Weather Report </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-    <style>
-    .box {
-        /*  margin: 2vh 3vw;*/
-        width: 250px;
-        height: 250px;
-    }
-
-    .left {
-        float: left;
-    }
-
-    .right {
-        float: right;
-        text-align: right;
-    }
-
-    .container {
-        margin: 2vh 3vw;
-    }
-    .img-fluid{
-        border: 0;
-    }
-    .card{
-        margin: 2vh 2vw;
-    }
-    .card-title{
-      text-align: center;
-        vertical-align: middle;
-        color: black;
-    </style>
+<style>
+       .select_platform_space {
+	border:2px solid black;
+	margin-top:100px;
+	padding:45px;
+   background-color:rgb(153, 179, 255);
+	text-align:center;
+	color:black;
+	margin-left:350px;
+	margin-right:350px;
+	border-radius: 25px;
+}
+      .select_platform_space1 {
+	border:2px solid black;
+	margin-top:100px;
+	padding:45px;
+   background-color:rgb(153, 179, 255);
+	text-align:center;
+	color:black;
+	margin-left:50px;
+	margin-right:50px;
+	border-radius: 25px;
+}
+</style>
 <body>
-    <div class="col-lg-6 col-md-6 col-xs-12"></div>
-    <div class="row">
-        <div class="card"><img alt="Card image cap" class="card-img-top img-fluid" src="../Assets/images/ww.jpg" />
-      <div class="card-block">
-        <h4 class="card-title"></h4>
-
-        <p class="card-text"></p>
-      </div>
-    </div>
+    <div class="select_platform_space">
+     Temperature : <?php echo $temperature_current_c;?>&deg;C<br>
+	  Humidity : <?php echo $humidity_current;?><br>
+	<?php echo $summary_current;?><br>
+	Wind Speed : <?php echo $windspeed_current;?><abbr title="miles per hour">MPH</abbr>
+    <br>
     </div>
 
+		 <?php
+		          $i=0;
+		          foreach($data1->daily->data as $day):
+		?>
 
-<div class="col-sm-12">
-    <div class="row">
-      <div class="col-sm-7 five-three">
-        <div class="row">
-          <div class="col-sm-4">
-          <div class="card"><img alt="Card image cap" class="card-img-top img-fluid" src="../Assets/images/ww.jpg" />
-      <div class="card-block">
-        <h4 class="card-title"></h4>
 
-        <p class="card-text"></p>
-      </div>
-    </div>
-          </div>
-          <div class="col-sm-4">
-          <div class="card"><img alt="Card image cap" class="card-img-top img-fluid" src="../Assets/images/ww.jpg" />
-      <div class="card-block">
-        <h4 class="card-title"></h4>
+                                    <div class="select_platform_space1">
+                                       <b> <?php echo date("l",$day->time);?></b><br>
+                                        <b>Temperature : <?php echo round($day->temperatureHigh);?><br></b>
+                                            <b> Humidity : <?php echo round($day->humidity*100);?><br></b>
+                               </div>
 
-        <p class="card-text"></p>
-      </div>
-    </div>
-          </div>
-          <div class="col-sm-4">
-          <div class="card"><img alt="Card image cap" class="card-img-top img-fluid" src="../Assets/images/ww.jpg" />
-      <div class="card-block">
-        <h4 class="card-title"></h4>
 
-        <p class="card-text"></p>
-      </div>
-    </div>
-          </div><!-- end inner row -->
-        </div>
-      </div>
-      <div class="col-sm-5 five-two">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card"><img alt="Card image cap" class="card-img-top img-fluid" src="../Assets/images/ww.jpg" />
-      <div class="card-block">
-        <h4 class="card-title"></h4>
+	  <?php
+	  $i++;
+	  if($i==24) break;
+	   endforeach;
+	  ?>
 
-        <p class="card-text"></p>
-      </div>
-    </div>
-          </div>
-          <div class="col-sm-6">
-<div class="card"><img alt="Card image cap" class="card-img-top img-fluid" src="../Assets/images/ww.jpg" />
-      <div class="card-block">
-        <h4 class="card-title"></h4>
-
-        <p class="card-text"></p>
-      </div>
-    </div>          </div>
-        </div><!-- end inner row -->
-      </div>
-    </div>​<!-- end outer row -->
- </div>
 
 
 </body>
