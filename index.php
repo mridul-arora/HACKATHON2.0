@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
     <title>Agriculture</title>
@@ -14,35 +13,73 @@
     .navbar.navbar-default {
         margin-bottom: 0;
     }
-    .left carousel-control{
-        height:75%;
+     body {
+        background: #eee
     }
-    .right carousel-control{
-        height:75%;
+
+    .container-fluid {
+       /* max-width: 1200px;*/
     }
+
+    header {
+        background: #563d7c;
+        padding: 2em 1em;
+        color: #fff;
+        margin-bottom: 2em;
+        h1 {
+            font-weight: 200;
+        }
+    }
+
+    .card {
+        background: #fff;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        img {
+            width: 100%;
+        }
+    }
+
+    [class*="row"] {
+        margin-bottom: 1em;
+        justify-content: center;
+    }
+
+    [class*="col-"] {
+        background: #efefef;
+        border: 1px solid #ddd;
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        width: 100%;
+    }
+
 </Style>
 
 <body>
+    <nav class="navbar navbar-default">
     <div class="container-fluid">
-        <div class="row">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                <nav class="navbar navbar-default">
-                    <ul class="nav navbar-nav navbar-right">
-                        <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+       <!-- <div class="navbar-header">
+            <a class="navbar-brand" href="#">Rural Development</a>
+        </div>
+            <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Page 1-1</a></li>
           <li><a href="#">Page 1-2</a></li>
           <li><a href="#">Page 1-3</a></li>
         </ul>
       </li>-->
-                        <li class="active"><a href="index.php">Home</a></li>
-                        <li><a href="AboutUs/index.php">About Us</a></li>
-                     <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                         <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-                    </ul>
-                </nav>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="AboutUs/index.php">About Us</a></li>
+             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -114,6 +151,14 @@
                     <CENTER>
                         <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
                     </CENTER>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  <!-- <div class="container-fluid">
+
                     </div>-->
 
    <div class="container-fluid">
@@ -145,7 +190,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
+                <div class="well">x
                     <div class="card-body"><a href="../HACKATHON2.0/Labour/index.php">Labour</a></div>
                 </div>
             </div>

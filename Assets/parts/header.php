@@ -1,25 +1,3 @@
-<!--<header id="header">
-    <a href="#"><img src="" style="" /><span id="left"><strong>Rural Development</strong></span></a>
-    <div class="right">
-        <ul>
-            <li>
-                <class="navsize"><a href="AboutUs/index.php">About Us</a></class>
-            </li>
-            <li>
-                <class="navsize"><a href="SignIn/index.php">Sign In</a></class>
-            </li>
-            <li>
-                <class="navsize"><a href=" ContactUs/index.php ">Contact Us</a></class>
-            </li>
-            <li>
-                <class="navsize "><a href="SignUp/index.php ">Sign Up</a></class>
-            </li>
-            <li>
-                <class="navsize"><a href="SignOut/index.php ">Sign Out</a></class>
-            </li>
-        </ul>
-    </div>
-</header>-->
 <head><link rel="stylesheet" type="text/css" href="../Assets/css/style.css"/>
  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

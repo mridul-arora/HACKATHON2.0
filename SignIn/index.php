@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>SIGN UP</title>
+    <title>Sign In</title>
    <link rel="stylesheet" type="text/css" href="../Assets/css/style.css"/>
  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,10 +11,10 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="../index.php">Home</a></li>
+            <li ><a href="../index.php">Home</a></li>
             <li><a href="../AboutUs/index.php">About Us</a></li>
-             <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="../SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li class="active"><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             <li><a href="../ContactUs/index.php ">Contact Us</a></li>
         </ul>
     </div>
@@ -26,7 +26,8 @@
         background-repeat: no-repeat;
         background-size: 1280px 700px;
         -webkit-appearance: none;
-        background-image: url("../Assets/images/wh.jpg");
+        background-image: url("../Assets/images/tree.jpeg");
+        background-size: cover;
     }
 
     .error {
