@@ -1,6 +1,6 @@
+<?php include "Assets/parts/header.php";?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
     <title>Agriculture</title>
@@ -19,7 +19,7 @@
     }
 
     .container-fluid {
-        max-width: 1200px;
+       /* max-width: 1200px;*/
     }
 
     header {
@@ -59,16 +59,6 @@
     <div class="container-fluid">
         <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <nav class="navbar navbar-default">
-        <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="AboutUs/index.php">About Us</a></li>
-             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-        </ul>
-
-</nav>
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -79,7 +69,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="Assets/images/cc.jpg" alt="Image cc" style="width:100%;">
+                        <img src="Assets/images/rrr.jpg" alt="Image cc" style="width:100%;">
                         <div class="carousel-caption">
                             <h3></h3>
                             <p></p>
@@ -116,7 +106,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <!--<div class="container-fluid">
         <div class="row">
             <div class="card-deck">
                 <div class="card"><a href="#">
@@ -140,12 +130,17 @@
                     <CENTER>
                         <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
                     </CENTER>
+
                     </div>
             </div>
         </div>
     </div>
     </div>
   <!-- <div class="container-fluid">
+
+                    </div>-->
+
+   <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin:0px 0px;">
                 <div class="well">
@@ -174,7 +169,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
+                <div class="well">x
                     <div class="card-body"><a href="../HACKATHON2.0/Labour/index.php">Labour</a></div>
                 </div>
             </div>
@@ -185,6 +180,6 @@
 
             </div>
         </div>
-    </div>-->
+    </div>
     </body>
 </html>
