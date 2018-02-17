@@ -111,9 +111,9 @@
                 <div class="col-md-4 col-xs-12">
                 <div class="card text-center">
 
-                    <div class="card-footer">
+                    <a href="choose_option.php"><div class="card-footer">
                         <img src="../Assets/images/r.jpg">
-                    </div>
+                    </div></a>
                      <div class="card-block">
                         <h4 class="card-title r">RICE</h4>
                         <p class="card-text">
