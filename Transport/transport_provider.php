@@ -128,11 +128,11 @@ function test_input($data) {
                         <div class="form-group">
                             <p><span class="error">* required field.</span></p>
                             <label for="wt"></label>
-                            <input type="text" class="form" name="wt" placeholder="Enter weight"><span class="error">* <?php echo $nameErr;?></span>
+                            <input type="text" class="form" name="wt" placeholder=" Weight in kg"><span class="error">* <?php echo $nameErr;?></span>
                         </div><br></div>
                             <div class="form-group">
                                 <label for="dist"></label>
-                                <input type="text" class="form" name="dist" placeholder="Distance">
+                                <input type="text" class="form" name="dist" placeholder="Distance in km">
                             </div><br>
                     <div class="form-group">
                                 <label for="time"></label>
@@ -147,6 +147,7 @@ function test_input($data) {
 
 
                 </form>
+                <a href="search_user.php"><button type="sub1" class="btn btn-danger " name="sub1" style="margin-left:250px;margin-top:50px">Search for transport users</button></a>
             </div>
 </body>
 

@@ -9,7 +9,7 @@ if(isset($_POST['sub']))
             $query=mysqli_query($con,"INSERT INTO t_provider (wt,dist,price,time)VALUES('$a','$b','$g','$c')");
                  if($query)
                          {
-                            #header("Location:index.php");
+                            header("Location:transport_provider.php");
                           }
 
    }
