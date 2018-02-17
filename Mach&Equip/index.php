@@ -92,6 +92,7 @@
                         <h4 class="card-title">COMBINE HARVESTER</h4>
                     </CENTER>
                   </div>
+                </a>
             </div>
 
             <div class="card"><a href="conveyor/index.php">
@@ -102,11 +103,12 @@
                         <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
                     </CENTER>
                     </div>
+                </a>
             </div>
         </div>
     </div>
     </div>
-        </div>
+
 
 </body>
 
