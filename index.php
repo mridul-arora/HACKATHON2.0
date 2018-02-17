@@ -142,10 +142,12 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                 <li><a href="SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+                <li><a href="SignOut/index.php"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+                <li><a href=" ContactUs/index.php "><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
+                <li><?php include "gt.php";?></li>
             </ul>
         </div>
     </nav>
@@ -201,7 +203,7 @@
         </div>
     </div>
 
-   <div class="container">
+  <div class="container">
   <div class="row">
     <div class="col-md-6">
       <div class="thumbnail">
@@ -246,8 +248,51 @@
       </div>
     </div>
   </div>
-</div>
-
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="Assets/images/ferti.jpg" alt="Lights">
+          <div class="caption">
+            <p id="para">Fertilizer & Pesticides</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="Assets/images/seeds.jpg" alt="Fjords">
+          <div class="caption">
+            <p id ="para">Seeds</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="Assets/images/wtank.jpg" alt="Lights">
+          <div class="caption">
+            <p id="para">Water Availability</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="Assets/images/ontrain.jpg" alt="Fjords">
+          <div class="caption">
+            <p id ="para">Training Facilities</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+    </div>
     <div class="footer">
       <div class="container foot">
           <p id="copy">Copyright &copy; 2013-2018</p>
