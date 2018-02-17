@@ -25,7 +25,7 @@ if(isset($_POST['sub']))
                                     $_SESSION['phone_no']=$no;
 							        $_SESSION['user_id']=$id;
                                   echo $_SESSION['phone_no'];
-                                    header("Location:HACKATHON2.0/index.php");
+                                    header("Location:../index.php");
                                  }
 						 }
 

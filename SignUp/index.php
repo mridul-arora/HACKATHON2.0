@@ -64,8 +64,8 @@
     }
     .col-md-6{text-align: center;
     }
-    .btn-primary{
-        margin-bottom: 5vh;
+    .btn-success{
+        margin-bottom: 7vh;
     }
 </style>
 
@@ -176,7 +176,7 @@ function test_input($data) {
                     <div class="row">
                         <div class="col-md-12 col"></div>
                         <div class="col-md-12">
-                                <button type="sub" class="btn btn-primary" name="sub" >Submit</button>
+                                <button type="sub" class="btn btn-success" name="sub" >Submit</button>
                         </div>
                     </div>
             </form>
