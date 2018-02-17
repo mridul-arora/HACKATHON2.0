@@ -16,14 +16,17 @@
     option:focus {
         outline: none;
     }
-
+input:focus,
+    text:focus {
+        outline: none;
+    }
     body {
         background-image: url("../Assets/images/buycrops.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
     .crop_name {
-        border-radius: 5px;
+        border-radius: 25px;
         height: 40px;
         width: 18vw;
         border: 2px solid #dcdbdb;
@@ -36,7 +39,7 @@
 
     .form {
          box-shadow: grey 0px 2px 0px 1px;
-        border-radius: 5px;
+        border-radius: 25px;
         height: 2.5em;
         width: 18vw;
         border: 2px solid #dcdbdb;
@@ -48,15 +51,21 @@
     }
 
     .sub1 {
-         box-shadow: darkgreen 0px 2px 0px 1px;
+         box-shadow: #331a00 0px 2px 0px 1px;
         width:18vw;
         height:auto;
         margin-top: 1vh;
+        border-radius: 25px;
+        background-color:  #331a00;
+        color:white;
     }
     .sub{
         margin-top: 1vh;
         width:18vw;
-        box-shadow: darkgreen 0px 2px 0px 1px;
+        box-shadow: #331a00 0px 2px 0px 1px;
+        border-radius: 25px;
+        background-color:  #331a00;
+        color:white;
     }
 
     .row{
@@ -116,8 +125,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                              <option value="Cabbage">Cabbage</option>
                              <option value="Black gram">Black gram</option>
                                  </div>
-            </select>
-                </div>
+            </select><br>
+                </div><br>
                 <div class="row">
                     <div class="form-group">
                         <label for="quantity"></label>
@@ -129,16 +138,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                         <label for="price"></label>
                         <input type="text" class="form" name="price" placeholder="price per kg">
                     </div>
-                </div>
+                </div><br><br><br>
                 <div class="row">
                     <div class="submit_center">
-                        <button type="sub" class="btn btn-success sub" name="sub">Submit</button>
+                        <button type="sub" class="btn sub" name="sub">Submit</button>
                     </div>
                 </div>
             </form>
             <div class="row">
                 <form action="search_wheat_sell.php">
-                    <button type="sub" class="btn btn-success sub1" name="sub1">Search for buyers</button>
+                    <button type="sub" class="btn sub1" name="sub1" style="float:right;margin-top:100px;">Search for buyers</button>
                 </form>
             </div>
 

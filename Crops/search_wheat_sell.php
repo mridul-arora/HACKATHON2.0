@@ -27,7 +27,7 @@
 
     <?php
         $con = mysqli_connect("localhost","root","","agriculture");
-        $query1 = mysqli_query($con," SELECT * FROM crop_buyer ");
+        $query1 = mysqli_query($con," SELECT * FROM crop_buyer where crop_name="rice" ");
 
                                             while($row=mysqli_fetch_array($query1))
                                              {

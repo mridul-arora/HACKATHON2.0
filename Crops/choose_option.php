@@ -30,25 +30,18 @@
     <body>
 <div class= "container">
 	     <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
 				  <a href="buy_crop.php">
 				  <div class="select_platform_space " style="font-size:20px;">
                   Buy Crops and Vegetables.
                   </div></a>
 			</div>
-               <div class="col-md-4">
+               <div class="col-md-6">
 		          <a href="rice_market_price.php">
                   <div class="select_platform_space " style="font-size:20px;">
-
-                 Current Market Rate
+                  Sell crops and vegetables and current market rate
                   </div></a>
             </div>
-               <div class="col-md-4">
-				  <a href="sell_crop.php">
-				  <div class="select_platform_space " style="font-size:20px;">
-                Sell Crops and Vegetables.
-                  </div></a>
-			</div>
 	     </div>
       </div>
 </body>
