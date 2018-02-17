@@ -11,6 +11,7 @@
    	text-align:center;
     text-decoration: none;
 	color:white;
+    font-weight: 1000;
 	margin-left:2em;
 	margin-right:2em;
 	border-radius: 25px;
@@ -18,9 +19,10 @@
 }
         a:hover{
             color: white;
+            text-decoration: none;
         }
         body{
-            background-image: url("../Assets/images/tran.jpg");
+            background-image: url("../Assets/images/urb.jpg");
            background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -37,14 +39,14 @@
             <div class="col-md-6">
 				  <a href="available/index.php">
 				  <div class="select_platform_space " style="font-size:20px;">
-                      <bold>AVAILABLE FOR SERVICE</bold>
+                      <bold>AT SECOND HAND RATE.</bold>
                   </div></a>
 			</div>
                <div class="col-md-6">
 		          <a href="nee/index.php">
                   <div class="select_platform_space " style="font-size:20px;">
 
-                      <bold>IN NEED OF SERVICE</bold>
+                      <bold>FOR RENTING</bold>
                   </div></a>
             </div>
                <!--<div class="col-md-4">
