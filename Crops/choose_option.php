@@ -25,13 +25,13 @@
     <body>
 <div class= "container">
 	     <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
 				  <a href="#">
 				  <div class="select_platform_space " style="font-size:20px;">
                   Buy Crops and Vegetables.
                   </div></a>
 			</div>
-               <div class="col-md-4">
+               <div class="col-md-6">
 		          <a href="wheat_market_price.php">
                   <div class="select_platform_space " style="font-size:20px;">
 

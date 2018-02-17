@@ -59,7 +59,7 @@ date_default_timezone_set($data1->timezone);
 </head>
 <style>
   body{
-            background-image: url("../Assets/images/weather.jpg") !important;
+            background-image: url("../Assets/images/weather.jpg");
 
             background-size: cover;
         }
