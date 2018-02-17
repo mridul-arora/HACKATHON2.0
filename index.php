@@ -112,7 +112,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="thumbnail">
-        <a href="/Weather/index.php">
+        <a href="Weather/index.php">
           <img src="Assets/images/sky.jpg" alt="Lights">
           <div class="caption">
             <p>Weather Conditions</p>
@@ -122,7 +122,7 @@
     </div>
     <div class="col-md-6">
       <div class="thumbnail">
-        <a href="/Crops/index.php">
+        <a href="Crops/index.php">
           <img src="Assets/images/buycrops.jpg" alt="Fjords">
           <div class="caption">
             <p>Current Market Price</p>
@@ -134,7 +134,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="thumbnail">
-        <a href="/Mach&Equip/index.php">
+        <a href="Mach&Equip/index.php">
           <img src="Assets/images/ch.jpg" alt="machines" >
           <div class="caption">
             <p>Machines & Equipments</p>
@@ -144,7 +144,7 @@
     </div>
     <div class="col-md-6">
       <div class="thumbnail">
-        <a href="/Transport/index.php">
+        <a href="Transport/index.php">
           <img src="Assets/images/12.jpg" alt="transport" >
           <div class="caption">
             <p>Transportation</p>
