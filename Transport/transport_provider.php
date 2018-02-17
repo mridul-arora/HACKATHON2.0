@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Sign In</title>
+    <title>SIGN UP</title>
    <link rel="stylesheet" type="text/css" href="../Assets/css/style.css"/>
  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,10 +11,10 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
-            <li ><a href="../index.php">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li><a href="../AboutUs/index.php">About Us</a></li>
-            <li><a href="../SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li class="active"><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+             <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             <li><a href="../ContactUs/index.php ">Contact Us</a></li>
         </ul>
     </div>
@@ -62,7 +62,11 @@
     .col-md-12{
         text-align: center;
     }
-    .col-md-6{text-align: center;}
+    .col-md-6{text-align: center;
+    }
+    .btn-success{
+        margin-bottom: 7vh;
+    }
 </style>
 
 <body>
@@ -110,10 +114,25 @@ function test_input($data) {
 }
 ?>
         <div class="container">
-            <form method="post" action="insert_signin.php">
-                <div style="margin-top:150px">
-
-
+            <form method="post" action="insert_t_procider.php">
+                <div style="margin-top:10vh">
+                    <div class="row">
+                        <div class="col-md-12"></div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <p><span class="error">* required field.</span></p>
+                                <label for="f_name"></label>
+                                <input type="text" class="form" name="f_name" placeholder="First Name"><span class="error">* <?php echo $nameErr;?></span>
+                            </div><br></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 "></div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="l_name"></label>
+                                <input type="text" class="form" name="l_name" placeholder="Last Name"><span class="error">* <?php echo $name1Err;?></span>
+                            </div><br></div>
+                    </div>
                     <div class="row">
                         <div class="col-md-12 col"></div>
                         <div class="col-md-12">
@@ -130,15 +149,12 @@ function test_input($data) {
                                 <input type="text" class="form" name="password" placeholder="Password"><span class="error">* <?php echo $nameErr;?></span>
                             </div><br></div>
                     </div>
-                    <div class="row">
-
-
-                        </div>
+                    <
                     </div>
                     <div class="row">
                         <div class="col-md-12 col"></div>
                         <div class="col-md-12">
-                                <button type="sub" class="btn btn-success" name="sub">Submit</button>
+                                <button type="sub" class="btn btn-success" name="sub" >Submit</button>
                         </div>
                     </div>
             </form>

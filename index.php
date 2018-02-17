@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 <head>
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
     <title>Agriculture</title>
@@ -13,12 +17,22 @@
     .navbar.navbar-default {
         margin-bottom: 0;
     }
+<<<<<<< HEAD
      body {
         background: #eee
     }
 
     .container-fluid {
        /* max-width: 1200px;*/
+=======
+
+    body {
+        background-color: darkolivegreen;
+    }
+
+    .container-fluid {
+
+>>>>>>> origin/master
     }
 
     header {
@@ -31,6 +45,7 @@
         }
     }
 
+<<<<<<< HEAD
     .card {
         background: #fff;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -49,6 +64,14 @@
         border: 1px solid #ddd;
         padding-top: .75rem;
         padding-bottom: .75rem;
+=======
+
+    .minus {
+        margin-top: -6vh;
+        text-align: center;
+    }
+    .row img{
+>>>>>>> origin/master
         width: 100%;
     }
 
@@ -56,6 +79,7 @@
 
 <body>
     <nav class="navbar navbar-default">
+<<<<<<< HEAD
     <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php">Home</a></li>
@@ -67,6 +91,20 @@
     </div>
 </nav>
 
+=======
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="AboutUs/index.php">About Us</a></li>
+                <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--carousel-->
+>>>>>>> origin/master
     <div class="container-fluid">
         <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -117,6 +155,7 @@
         </div>
     </div>
 
+<<<<<<< HEAD
     <!--<div class="container-fluid">
         <div class="row">
             <div class="card-deck">
@@ -336,12 +375,61 @@
       <a href="#" class="btn btn-primary">See Profile</a>
     </div>
     <img class="card-img-bottom" src="img_avatar6.png" alt="Card image" style="width:100%">
+=======
+   <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="Weather/index.php">
+          <img src="Assets/images/sky.jpg" alt="Lights">
+          <div class="caption">
+            <p>Weather Conditions</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="Crops/index.php">
+          <img src="Assets/images/buycrops.jpg" alt="Fjords">
+          <div class="caption">
+            <p>Current Market Price</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="Mach&Equip/index.php">
+          <img src="Assets/images/ch.jpg" alt="machines" >
+          <div class="caption">
+            <p>Machines & Equipments</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="Transport/index.php">
+          <img src="Assets/images/12.jpg" alt="transport" >
+          <div class="caption">
+            <p>Transportation</p>
+          </div>
+        </a>
+      </div>
+    </div>
+>>>>>>> origin/master
   </div>
 </div>
 
 </body>
+<<<<<<< HEAD
 </html>
 
 </body>
+=======
+>>>>>>> origin/master
 
 </html>

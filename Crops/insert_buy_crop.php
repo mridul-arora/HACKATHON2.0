@@ -11,7 +11,7 @@ if(isset($_POST['sub']))
    $b=$_POST['price'];
 
 
-     $query=mysqli_query($con,"INSERT INTO crop_buyer (user_id,quantity_buy,price_buy,crop_name)VALUES('$id','$a','$b','$c')");
+     $query=mysqli_query($con,"INSERT INTO crop_buyer (user_id,crop_name,quantity,price)VALUES('$id','$c','$a','$b')");
     echo "hello";
 
    }

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,12 +11,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
-    <style>
+<style>
     .box {
         /*  margin: 2vh 3vw;*/
         width: 250px;
         height: 250px;
     }
+
 <?php
 
 /*$api_url='https://api.darksky.net/forecast/e1faeca74abbf5d10832e4fa804bff35/37';
@@ -166,5 +165,6 @@ date_default_timezone_set($data1->timezone);
     </div>
     </div>
     </div>
+>>>>>>> origin/master
 </body>
 </html>

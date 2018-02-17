@@ -119,3 +119,11 @@ ABOUT US
 This website tries to solve various general problems faced by Indian farmers. Some of them includes current market rate of crops, seeds, pesticides, fertilizers, storage area, weather conditions and many more.
 It also looks up to solve the problems of labour, water availability and accessibility of tools and machines at cheaper rates or on rent. It will also solve the problem of transportation of crops.
     
+    
+    machines
+    market price:crops
+    weather
+    training
+    google translator
+    
+    
