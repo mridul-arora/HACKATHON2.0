@@ -65,10 +65,10 @@
                                              {
                                       ?>
         <div class="well">
-         <?php echo " Weight : "." $row[wt]<br>";?>
-            <?php echo " Distance : "." $row[dist]<br>";?>
-            <?php echo " Price : "." $row[price]<br>";?>
-
+         <?php echo " Weight : "." $row[wt] kg<br>";?>
+            <?php echo " Distance : "." $row[dist] km <br>";?>
+            <?php echo " Time : "." $row[price] days<br>";?>
+            <?php echo " Price:Rs "." $row[time] <br>";?>
         </div>
         <?php
                  }
