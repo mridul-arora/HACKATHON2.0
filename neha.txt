@@ -1,58 +1,6 @@
-
-
-    <style>
-        body{
-            background-image: url("../Assets/images/wheatwall.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .well{
-            margin-left: 3vw;
-            width:30vw;
-            height:auto;
-            text-align: center;
-           box-shadow: 0px 5px 0px 3px;
-            opacity:0.7;
-           font-weight: 1000;
-            border: bold 2px;
-            text-decoration: none;
-            border-radius: 25px;
-            margin-bottom: 2vh;
-        }
-        .well:hover{
-         margin-left: 3vw;
-            width:30vw;
-            height:auto;
-            text-align: center;
-           box-shadow: 0px 5px 0px 3px;
-            opacity:1;
-           font-weight: 1000;
-            border: bold 5px;
-            text-decoration: none;
-            border-radius: 25px;
-        }
-    </style>
-    <div class="container-fluid">
-       <div class="row contact">
-	        <div class="col-md-2">
-			    <span class="glyphicon glyphicon-bookmark" style="font-size:70px;" ></span>
-			 </div>
-			 <div class="col-md-3">
-			    <i class="fa fa-skype icon_space" style="font-size:30px;" ></i><br><div class="contact_info">loremipsum</div>
-			 </div>
-			 <div class="col-md-3">
-			    <span class="glyphicon glyphicon-envelope" style="font-size:30px;" ></span><br><div class="contact_info">ad_farm@gmail.com</div>
-			 </div>
-			 <div class="col-md-2">
-			    <span class="glyphicon glyphicon-earphone" style="font-size:30px;" ></span><div class="contact_info">123445678</div>
-			 </div>
-			 <div class="col md-2">
-			 <i class="fa fa-twitter icon_space" style="font-size:30px"></i>
-			 <i class="fa fa-linkedin icon_space" style="font-size:30px"></i>
-			 <i class="fa fa-facebook icon_space" style="font-size:30px"></i>
-			 <i class="fa fa-instagram icon_space" style="font-size:30px"></i><br><br>
-			 <!--<span class="glyphicon glyphicon-earphone" style="font-size:30px" ></span> -->
-			 </div>
-			  
-	    </div>
+ <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="SignOut/index.php"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+                <li><a href=" ContactUs/index.php "><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
+                <li><?php include "gt.php";?></li>
