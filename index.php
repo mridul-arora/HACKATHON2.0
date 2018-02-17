@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css" />
     <title>Agriculture</title>
@@ -13,12 +14,13 @@
     .navbar.navbar-default {
         margin-bottom: 0;
     }
-     body {
-        background: #eee
+
+    body {
+        background-color: darkolivegreen;
     }
 
     .container-fluid {
-       /* max-width: 1200px;*/
+
     }
 
     header {
@@ -31,24 +33,15 @@
         }
     }
 
-    .card {
-        background: #fff;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-        img {
-            width: 100%;
-        }
-    }
 
-    [class*="row"] {
-        margin-bottom: 1em;
-        justify-content: center;
+    .minus {
+        margin-top: -6vh;
+        text-align: center;
     }
-
-    [class*="col-"] {
-        background: #efefef;
-        border: 1px solid #ddd;
-        padding-top: .75rem;
-        padding-bottom: .75rem;
+    .row{
+        margin-top: 15vh;
+    }
+    .row img{
         width: 100%;
     }
 
@@ -56,17 +49,18 @@
 
 <body>
     <nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="AboutUs/index.php">About Us</a></li>
-             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-        </ul>
-    </div>
-</nav>
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="AboutUs/index.php">About Us</a></li>
+                <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <!--carousel-->
     <div class="container-fluid">
         <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -117,151 +111,53 @@
         </div>
     </div>
 
-    <!--<div class="container-fluid">
-        <div class="row">
-            <div class="card-deck">
-                <div class="card"><a href="#">
-        <img class="card-img-top" src="../Assets/images/tt.jpg" alt="Card image cap">
-        <div class="card-block">
-          <CENTER><h4 class="card-title">THRESHER</h4></CENTER>
-              </div>
-                </a>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <CENTER>
-                        <h4 class="card-title">COMBINE HARVESTER</h4>
-                    </CENTER>
-                  </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="../Assets/images/vc.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <CENTER>
-                        <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
-                    </CENTER>
-
-                    </div>
-            </div>
-        </div>
+   <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="/Weather/index.php">
+          <img src="Assets/images/sky.jpg" alt="Lights">
+          <div class="caption">
+            <p>Weather Conditions</p>
+          </div>
+        </a>
+      </div>
     </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="/Crops/index.php">
+          <img src="Assets/images/buycrops.jpg" alt="Fjords">
+          <div class="caption">
+            <p>Current Market Price</p>
+          </div>
+        </a>
+      </div>
     </div>
-  <!-- <div class="container-fluid">
-
-                    </div>-->
-
-   <!--<div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Crops/index.php">Crops</a></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="Mach&Equip/index.php">Machines</a></div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Weather/index.php">Weather</a></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Transport/index.php">Transport</a></div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">x
-                    <div class="card-body"><a href="../HACKATHON2.0/Labour/index.php">Labour</a></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Water/index.php">Water</a></div>
-                </div>
-
-            </div>
-        </div>
-    </div>-->
-    <div class="container">
-            <div class="card-deck">
-                <div class="card text-center">
-                    <div class="card-block">
-                        <h4 class="card-title">RICE</h4>
-                        <p class="card-text">
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <img src="../Assets/images/r.jpg">
-                    </div>
-                </div>
-
-                <div class="card text-center">
-                    <div class="card-block">
-                        <h4 class="card-title">WHEAT</h4>
-                         <p class="card-text">
-
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                         <img src="../Assets/images/w.jpg">
-                    </div>
-                </div>
-
-                <div class="card text-center">
-                    <div class="card-block">
-                        <h4 class="card-title">Potatoes</h4>
-                        <p class="card-text">
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                       <img src="../Assets/images/pp.jpg">
-                             </div>
-                </div>
-            </div>
-    <div class="card-deck mt-20">
-        <div class="card text-center">
-            <div class="card-block">
-                <h4 class="card-title">BLACK GRAM</h4>
-                <p class="card-text">
-                </p>
-            </div>
-             <div class="card-footer">
-                 <img src="../Assets/images/bbb.jpg">
-            </div>
-        </div>
-
-        <div class="card text-center">
-            <div class="card-block">
-                <h4 class="card-title">CABBAGE</h4>
-                <p class="card-text">
-
-                </p>
-            </div>
-            <div class="card-footer">
-                <img src="../Assets/images/cab.jpg">
-            </div>
-             </div>
-        <div class="card text-center">
-            <div class="card-block">
-                <h4 class="card-title">BRINJAL</h4>
-                <p class="card-text">
-                </p>
-            </div>
-            <div class="card-footer">
-                 <img src="../Assets/images/br.jpg">
-            </div>
-        </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="/Mach&Equip/index.php">
+          <img src="Assets/images/ch.jpg" alt="machines" >
+          <div class="caption">
+            <p>Machines & Equipments</p>
+          </div>
+        </a>
+      </div>
     </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="/Transport/index.php">
+          <img src="Assets/images/12.jpg" alt="transport" >
+          <div class="caption">
+            <p>Transportation</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-    </body>
+
+</body>
+
 </html>
