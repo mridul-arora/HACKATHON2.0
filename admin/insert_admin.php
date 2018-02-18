@@ -9,10 +9,10 @@ if(isset($_POST['sub']))
     $c=$_POST['crop_name'];
    $a=$_POST['dist_name'];
    $b=$_POST['mandi_name'];
-   $e=$_POST['price];
+   $e=$_POST['price'];
 
 
-     $query=mysqli_query($con,"INSERT INTO rice_mp (dist_name,mandi_name,mp)VALUES('$id','$c','$a','$b','$e'");
+     $query=mysqli_query($con,"INSERT INTO rice_mp (dist_name,mandi_name,mp)VALUES('$c','$b','$e')");
     if($query)
     {
         header("Location:index.php");

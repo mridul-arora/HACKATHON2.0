@@ -82,6 +82,9 @@ input:focus,
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><b>Agro World</b></a>
+             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -140,7 +143,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                 <div class="row">
                     <div class="form-group">
                         <label for="price"></label>
-                        <input type="text" class="form" name="price" placeholder="price per kg">
+                        <input type="text" class="form" name="price" placeholder="Price per kg">
                     </div>
                 </div>
                 <div class="row">

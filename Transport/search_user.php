@@ -48,11 +48,12 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="AboutUs/index.php">About Us</a></li>
-             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+            <li><a href="../index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="../SignOut/index.php"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+                <li><a href=" ../ContactUs/index.php "><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
+                <li><?php include "../gt.php";?></li>
         </ul>
     </div>
 </nav>
@@ -65,10 +66,12 @@
                                              {
                                       ?>
         <div class="well">
-         <?php echo " Weight : "." $row[wt] kg<br>";?>
+            <?php echo " Name : "."$row[name] <br>";?>
+            <?php echo " Weight : "." $row[wt] kg<br>";?>
             <?php echo " Distance : "." $row[dist] km <br>";?>
             <?php echo " Time : "." $row[price] days<br>";?>
             <?php echo " Price:Rs "." $row[time] <br>";?>
+            <?php echo " Phone No: "." $row[phone_no] <br>";?>
         </div>
         <?php
                  }

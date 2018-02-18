@@ -12,6 +12,39 @@
 
 </head>
 
+    <style>
+        body{
+            background-image: url("../Assets/images/wheatwall.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .well{
+            margin-left: 3vw;
+            width:30vw;
+            height:auto;
+            text-align: center;
+           box-shadow: 0px 5px 0px 3px;
+            opacity:0.7;
+           font-weight: 1000;
+            border: bold 2px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-bottom: 2vh;
+        }
+        .well:hover{
+         margin-left: 3vw;
+            width:30vw;
+            height:auto;
+            text-align: center;
+           box-shadow: 0px 5px 0px 3px;
+            opacity:1;
+           font-weight: 1000;
+            border: bold 5px;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+    </style>
 <body>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -34,8 +67,10 @@
                                       ?>
         <div class="well">
          <?php /*echo " Crop : "." $row[crop_name]<br>";*/?>
-            <?php echo " Quantity : "." $row[quantity]<br>";?>
-            <?php echo " Price : "." $row[price]<br>";?>
+            <?php echo " Name: "." $row[name] <br>";?>
+            <?php echo " Quantity : "." $row[quantity] kg<br>";?>
+            <?php echo " Price : Rs "." $row[price] /kg<br>";?>
+            <?php echo " Phone No: "." $row[phone_no] <br>";?>
         </div>
         <?php
                  }
