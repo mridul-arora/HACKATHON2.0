@@ -10,12 +10,12 @@
     <style>
 
       .select_platform_space {
-	border:2px solid white;
+	border:2px solid black;
 	margin-top:10em;
 	padding:45px;
    	text-align:center;
     text-decoration: none;
-	color:white;
+	color:black;
     font-weight: 1000;
 	margin-left:2em;
 	margin-right:2em;
@@ -23,11 +23,11 @@
 
 }
         a:hover{
-            color: white;
+            color: black;
             text-decoration: none;
         }
         body{
-            background-image: url("../Assets/images/urb.jpg");
+            background-image: url("../Assets/images/man.jpg");
            background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -56,14 +56,14 @@
             <div class="col-md-6">
 				  <a href="available/index.php">
 				  <div class="select_platform_space " style="font-size:20px;">
-                      <bold>AT SECOND HAND RATE.</bold>
+                      AT SECOND HAND RATE.
                   </div></a>
 			</div>
                <div class="col-md-6">
 		          <a href="nee/index.php">
                   <div class="select_platform_space " style="font-size:20px;">
 
-                      <bold>FOR RENTING</bold>
+                      FOR RENTING
                   </div></a>
             </div>
                <!--<div class="col-md-4">

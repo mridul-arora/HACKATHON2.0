@@ -19,5 +19,104 @@
         </ul>
     </div>
 </nav>
-
 </head>
+     <style>
+
+ .select_platform_space {
+	border:2px solid white;
+	margin-top:10em;
+	padding:45px;
+   	text-align:center;
+	color:white;
+	margin-left:2em;
+	margin-right:2em;
+	border-radius: 25px;
+          font-weight:1000;
+
+}
+        a:hover{
+            color: white;
+            text-decoration: none;
+        }
+        body{
+            background-image: url("../Assets/images/cu.jpg");
+           background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+    <body>
+<div class= "container">
+    <div class="row">
+        <div class="col-md-12"></div>
+        <CENTER><h1></h1></CENTER>
+    </div>
+	     <div class="row">
+            <div class="col-md-4">
+				  <a href="transport_provider.php">
+				  <div class="select_platform_space " style="font-size:20px;">
+                      <b>MOBILE NO:1234567890</b>
+                  </div></a>
+			</div>
+               <div class="col-md-4">
+		          <a href="transport_user.php">
+                  <div class="select_platform_space " style="font-size:20px;">
+
+                      <b>EMAIL ID: xyz@gmail.com</b>
+                  </div></a>
+            </div>
+             <div class="col-md-4">
+		          <a href="transport_user.php">
+                  <div class="select_platform_space " style="font-size:20px;">
+
+                      <b>ADDRESS: XXYYZZ</b>
+                  </div></a>
+            </div>
+<!--<div class="map-location-area">
+		<div class="map-container">
+			<div class="container">
+						<div class="map-caption">
+							<div class="section-title">
+								<h2>Contact Information</h2>
+							</div>
+							<div class="contact-list">
+								<ul>
+									<li>
+										<a href="#">
+											<i class="icofont icofont-phone"></i>
+											<span>Call : 0123 (1234) 7894</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="icofont icofont-envelope"></i>
+											<span>Email : youremail@gmail.com</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="icofont icofont-location-pin "></i>
+											<span>House # 200 , Mohakhali , Dhaka</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="contact-social-list">
+								<a href="#">
+									<i class="icofont icofont-social-facebook"></i>
+								</a>
+								<a href="#">
+									<i class="icofont icofont-social-twitter"></i>
+								</a>
+								<a href="#">
+									<i class="icofont icofont-envelope"></i>
+								</a>
+								<a href="#">
+									<i class="icofont icofont-social-pinterest"></i>
+								</a>
+							</div>
+						</div>
+	     </div><!--
+      </div>-->
+</body>
+</html>
