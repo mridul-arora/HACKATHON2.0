@@ -11,11 +11,14 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="../index.php">Home</a></li>
-             <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li><a href="../ContactUs/index.php ">Contact Us</a></li>
+           <li><a href="../index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li class="active"><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="../SignOut/index.php"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+                <li><a href=" ../ContactUs/index.php "><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
+                <li><?php include "../gt.php";?></li>
         </ul>
+
     </div>
 </nav>
 
@@ -228,7 +231,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                     // check if name only contains letters and whitespace
                     if (!preg_match("/^[0-9]*$/",$name1))
                     {
-                    $phoneErr = "Only letters and white space allowed";
+                    $phoneErr = "No letters and white space allowed";
                     }
              }
   }
@@ -268,16 +271,11 @@ function test_input($data) {
                     </div>
 
                     <label for="password"></label>
-    <input type="password" placeholder="Password" id="password" name="password"  style="border-radius:25px;height:45px;margin-left:370px;padding:15px;width:29em;" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
-
-
-
-
-
+                    <input type="password" placeholder="Password" id="password" name="password"  style="border-radius:25px;height:45px;margin-left:370px;padding:15px;width:29em;" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
                     <div class="row">
 
                       <div class="col-md-12">
-                            <select name="state" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;" placeholder="select state"><br>
+                            <select name="state" style="border-radius:25px; height:40px ;border: 2px solid #dcdbdb;padding-left:35px;padding-right:35px;"  placeholder="select state"><br>
                              <option value="1" style="opacity:0.7;">Select your state</option>
                              <option value="West Bengal">West Bengal</option>
                             </select><br>

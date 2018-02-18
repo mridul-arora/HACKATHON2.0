@@ -145,6 +145,9 @@
 <body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><b>Agro World</b></a>
+             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -168,7 +171,7 @@
                 </ol>
 
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner">
+                <div class="carousel-inner" style="margin-top:-20px;">
                     <div class="item active">
                         <img src="Assets/images/rrr.jpg" alt="Image cc" style="width:100%;">
                         <div class="carousel-caption">
@@ -188,7 +191,7 @@
                     <div class="item">
                         <img src="Assets/images/gg.jpg" alt="gg" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3>using innovative equipments to reduce timme and energy in farming.</h3>
+                            <h3>using innovative equipments to reduce time and energy in farming.</h3>
                             <p></p>
                         </div>
                     </div>
@@ -208,7 +211,7 @@
     </div>
 
   <div class="container">
-  <div class="row">
+  <div class="row" style="margin-left:100px">
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="Weather/index.php">
@@ -230,7 +233,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="margin-left:100px">
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="Mach&Equip/index.php">
@@ -252,7 +255,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="margin-left:100px">
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="#">
@@ -274,7 +277,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="margin-left:100px;margin-bottom:40px;">
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="#">
