@@ -8,39 +8,89 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <Style>
+    .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+  text-align: center;
+        margin-bottom: -15vh;
+}
+.container.foot{
+  margin-top: 1.5vh;
+  color: #fff;
+  width: 100%;
+}
+    #copy{
+        float: left;
+        margin-left: 2vw;
+        margin-top: 2vh;
+    }
+
+.fa-twitter {
+    color: #4099FF;
+}
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa-rss {
+    color: #FF6600;
+}
+
+.fa-vine {
+    color: #00a478;
+}
+
+.fa-flickr {
+    color: #ff0084;
+}
+
+.fa-twitch {
+    color: #6441A5;
+}
+
+.fa-linkedin {
+    color: #007bb6;
+}
+
+.fa {
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+    #icons{
+       margin-right: 2vw;
+        float: right;
+        vertical-align: middle;
+    }
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;}
     .navbar.navbar-default {
-<<<<<<< HEAD
-        margin-bottom: 0;
-    }
-     body {
-        background: #eee
-    }
-
-    .container-fluid {
-       /* max-width: 1200px;*/
-
-=======
         margin-bottom: 0px;
     }
-
->>>>>>> origin/master
     body {
         background-color: #b38f00;
+        margin-bottom: 15vh;
     }
-
-<<<<<<< HEAD
-    .container-fluid {
-
-
-=======
     .container{
         margin-top: 7vh;
     }
     .row{
         margin-bottom: 2vh;
->>>>>>> origin/master
     }
     header {
         background: #563d7c;
@@ -51,47 +101,21 @@
             font-weight: 200;
         }
     }
-<<<<<<< HEAD
-
-
-    .card {
-        background: #fff;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-        img {
-            width: 100%;
-        }
-=======
     #para{
         text-align: center;
         font-size: 3vh;
         text-decoration: none;
         color:black;
         margin-bottom: -1vh;
->>>>>>> origin/master
     }
     #para:hover{
         text-decoration: none;
     }
-
-<<<<<<< HEAD
-    [class*="col-"] {
-        background: #efefef;
-        border: 1px solid #ddd;
-        padding-top: .75rem;
-        padding-bottom: .75rem;
-
-
-=======
->>>>>>> origin/master
     .minus {
         margin-top: -6vh;
         text-align: center;
     }
     .row img{
-<<<<<<< HEAD
-
-        width: 100%;
-=======
         width: 25vw;
         margin-top: 1.5vh;
         border-radius:14px;
@@ -111,36 +135,23 @@
          box-shadow: 0vh 1vh 0vw 0.5vw;
          border: black 4px;
          box-shadow: black;
-
->>>>>>> origin/master
     }
-
+    h3{
+        margin-bottom: 8em;
+        font-size: 5rem;
+    }
 </Style>
 
 <body>
     <nav class="navbar navbar-default">
-<<<<<<< HEAD
-
-    <!--<div class="container-fluid">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="AboutUs/index.php">About Us</a></li>
-             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-        </ul>
-    </div>
-</nav>-->
-
-=======
->>>>>>> origin/master
         <div class="container-fluid">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="AboutUs/index.php">About Us</a></li>
+                <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                 <li><a href="SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                <li><a href=" ContactUs/index.php ">Contact Us</a></li>
+                <li><a href="SignOut/index.php"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+                <li><a href=" ContactUs/index.php "><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
+                <li><?php include "gt.php";?></li>
             </ul>
         </div>
     </nav>
@@ -161,7 +172,7 @@
                     <div class="item active">
                         <img src="Assets/images/rrr.jpg" alt="Image cc" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3></h3>
+                            <h3>The new Way to Farming!</h3>
                             <p></p>
                         </div>
                     </div>
@@ -169,7 +180,7 @@
                     <div class="item">
                         <img src="Assets/images/dd.jpg" alt="dd" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3></h3>
+                            <h3>We implement new technologies for agricultural growth.</h3>
                             <p></p>
                         </div>
                     </div>
@@ -177,7 +188,7 @@
                     <div class="item">
                         <img src="Assets/images/gg.jpg" alt="gg" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3></h3>
+                            <h3>using innovative equipments to reduce timme and energy in farming.</h3>
                             <p></p>
                         </div>
                     </div>
@@ -196,231 +207,7 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-
-    <!--<div class="container-fluid">
-        <div class="row">
-            <div class="card-deck">
-                <div class="card"><a href="#">
-        <img class="card-img-top" src="../Assets/images/tt.jpg" alt="Card image cap">
-        <div class="card-block">
-          <CENTER><h4 class="card-title">THRESHER</h4></CENTER>
-              </div>
-                </a>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="../Assets/images/ch.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <CENTER>
-                        <h4 class="card-title">COMBINE HARVESTER</h4>
-                    </CENTER>
-                  </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="../Assets/images/vc.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <CENTER>
-                        <h4 class="card-title">VERTICAL CONVEYOR REAPER</h4>
-                    </CENTER>
-
-                    </div>
-            </div>
-        </div>
-    </div>
-    </div>
-  <!-- <div class="container-fluid">
-
-                    </div>-->
-
-   <!--<div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Crops/index.php">Crops</a></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="Mach&Equip/index.php">Machines</a></div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Weather/index.php">Weather</a></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Transport/index.php">Transport</a></div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">x
-                    <div class="card-body"><a href="../HACKATHON2.0/Labour/index.php">Labour</a></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-6 col-xs-12" style="margin:30px 0px;">
-                <div class="well">
-                    <div class="card-body"><a href="../HACKATHON2.0/Water/index.php">Water</a></div>
-                </div>
-
-            </div>
-        </div>
-    </div>-->
-    </body>
-</html>
-
-<!--!DOCTYPE HTML>
-<html lang="en">
-<head><link rel="stylesheet" type="text/css" href="../Assets/css/style.css"/>
- <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<style>
-    .box {
-        /*  margin: 2vh 3vw;*/
-        width: 250px;
-        height: 250px;
-    }
-
-    .left {
-        float: left;
-    }
-
-    .right {
-        float: right;
-        text-align: right;
-    }
-
-    .container {
-        margin: 2vh 3vw;
-    }
-    .img-fluid{
-        border: 0;
-    }
-    .card{
-        margin: 2vh 2vw;
-    }
-    .card-title{
-      text-align: center;
-        vertical-align: middle;
-        color: black;
-    }
-    .r
-    {
-        margin-top: -6vh;
-    }
-</style>
-<body>
-    <!--<nav class="navbar navbar-default">
-    <div class="container-fluid">
-
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="AboutUs/index.php">About Us</a></li>
-             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li><a href=" ContactUs/index.php ">Contact Us</a></li>
-        </ul>
-    </div>
-</nav>-->
-    <!--<div class="container">
-        <div class="row">
-            <div class="card img-fluid" style="width:500px">
-                <img class="card-img-top" src="../Assets/images/r.jpg" alt="Card image" <style="width:100%">
-                <div class="card-img-overlay">
-                    <h4 class="card-title">RICE</h4>
-                </div>
-            </div>
-            <div class="card img-fluid" style="width:500px">
-                <img class="card-img-top" src="../Assets/images/w.jpg" alt="Card image" style="width:111%">
-                <div class="card-img-overlay">
-                    <h4 class="card-title">WHEAT</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="card img-fluid" style="width:500px">
-                <img class="card-img-top" src="../Assets/images/p.jpg" alt="Card image" style="width:107%">
-                <div class="card-img-overlay">
-                    <h4 class="card-title">POTATO</h4>
-                </div>
-            </div>
-            <div class="card img-fluid" style="width:500px">
-                <img class="card-img-top" src="../Assets/images/b.jpg" alt="Card image" style="width:110%">
-                <div class="card-img-overlay">
-                    <h4 class="card-title">BLACK GRAM</h4>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="card img-fluid" style="width:500px">
-                <img class="card-img-top" src="../Assets/images/c.jpg" alt="Card image" style="width:130%">
-                <div class="card-img-overlay">
-                    <h4 class="card-title">CABBAGE</h4>
-                </div>
-            </div>
-
-        <div class="card img-fluid" style="width:510px">
-            <img class="card-img-top" src="../Assets/images/br.jpg" alt="Card image" style="width:100% height:80%">
-            <div class="card-img-overlay">
-                <h4 class="card-title">BRINJAL</h4>
-            </div>
-        </div>
-    </div>
-    </div>
-   <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-<div class="container">
-  <h2>Card Image</h2>
-  <p>Image at the top (card-img-top):</p>
-  <div class="card" style="width:400px">
-    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-  <br>
-
-  <p>Image at the bottom (card-img-top):</p>
-  <div class="card" style="width:400px">
-    <div class="card-body">
-      <h4 class="card-title">Jane Doe</h4>
-      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-    <img class="card-img-bottom" src="img_avatar6.png" alt="Card image" style="width:100%">
-=======
-=======
->>>>>>> origin/master
-   <div class="container">
+  <div class="container">
   <div class="row">
     <div class="col-md-6">
       <div class="thumbnail">
@@ -465,6 +252,62 @@
       </div>
     </div>
   </div>
-</div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="Assets/images/ferti.jpg" alt="Lights">
+          <div class="caption">
+            <p id="para">Fertilizer & Pesticides</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="Assets/images/seeds.jpg" alt="Fjords">
+          <div class="caption">
+            <p id ="para">Seeds</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="Assets/images/wtank.jpg" alt="Lights">
+          <div class="caption">
+            <p id="para">Water Availability</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="Assets/images/ontrain.jpg" alt="Fjords">
+          <div class="caption">
+            <p id ="para">Training Facilities</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="footer">
+      <div class="container foot">
+          <p id="copy">Copyright &copy; 2013-2018</p>
+          <span id="icons">
+              <a href='#'><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+              <a href='#'><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+              <a href='#'><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+              <a href='#'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+            </span>
+      </div>
+    </div>
 </body>
 </html>
+

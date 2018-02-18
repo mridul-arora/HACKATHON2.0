@@ -1,35 +1,6 @@
-
-
-    <style>
-        body{
-            background-image: url("../Assets/images/wheatwall.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .well{
-            margin-left: 3vw;
-            width:30vw;
-            height:auto;
-            text-align: center;
-           box-shadow: 0px 5px 0px 3px;
-            opacity:0.7;
-           font-weight: 1000;
-            border: bold 2px;
-            text-decoration: none;
-            border-radius: 25px;
-            margin-bottom: 2vh;
-        }
-        .well:hover{
-         margin-left: 3vw;
-            width:30vw;
-            height:auto;
-            text-align: center;
-           box-shadow: 0px 5px 0px 3px;
-            opacity:1;
-           font-weight: 1000;
-            border: bold 5px;
-            text-decoration: none;
-            border-radius: 25px;
-        }
-    </style>
+ <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="SignOut/index.php"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+                <li><a href=" ContactUs/index.php "><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
+                <li><?php include "gt.php";?></li>

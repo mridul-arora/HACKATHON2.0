@@ -27,15 +27,15 @@
 
     <?php
         $con = mysqli_connect("localhost","root","","agriculture");
-        $query1 = mysqli_query($con," SELECT * FROM crop_buyer where crop_name="rice" ");
+        $query1 = mysqli_query($con," SELECT * FROM crop_buyer where crop_name='rice' ");
 
                                             while($row=mysqli_fetch_array($query1))
                                              {
                                       ?>
         <div class="well">
-         <?php echo " Crop : "." $row[crop_name]<br>";?>
-            <?php echo " Quantity : "." $row[quantity_buy]<br>";?>
-            <?php echo " Price : "." $row[price_buy]<br>";?>
+         <?php /*echo " Crop : "." $row[crop_name]<br>";*/?>
+            <?php echo " Quantity : "." $row[quantity]<br>";?>
+            <?php echo " Price : "." $row[price]<br>";?>
         </div>
         <?php
                  }

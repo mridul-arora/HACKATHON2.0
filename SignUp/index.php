@@ -11,11 +11,11 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="../index.php">Home</a></li>
-            <li><a href="../AboutUs/index.php">About Us</a></li>
-             <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li><a href="../ContactUs/index.php ">Contact Us</a></li>
+                <li><a href="../index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li class="active"><a href="../SignUp/index.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="../SignIn/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="../ContactUs/index.php"><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
+                <li><?php include "../gt.php";?></li>
         </ul>
     </div>
 </nav>
@@ -68,15 +68,26 @@
         margin-bottom: 7vh;
     }
 </style>
-
 <body>
     <?php
-// define variables and set to empty values
-$nameErr = $name1Err ="";
-$Fname = $Lname ="";
-if ($_SERVER["REQUEST_METHOD"] == "POST")
+$errors=array();
+
+
+
+    //start validation
+
+
+
+    //check errors
+   /* if(count($errors)==0)
     {
-        if (empty($_POST["Fname"]))
+        header("Location: ../index.php");
+        exit();
+    }
+
+
+
+      /*  if (empty($_POST["Fname"]))
             {
                 $nameErr = "Name is required";
             }
@@ -105,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                     $name1Err = "Only letters and white space allowed";
                     }
              }
-  }
+  }*/
 function test_input($data) {
   $data = trim($data);
   $data = stripslashes($data);

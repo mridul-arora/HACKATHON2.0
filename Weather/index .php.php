@@ -26,9 +26,8 @@
     .container {
         margin: 2vh 3vw;
     }
-    .e {
-        border: 2px solid black;
-
+    .img-fluid{
+        border: 0;
     }
     .card{
         margin: 2vh 2vw;
@@ -37,18 +36,10 @@
       text-align: center;
         vertical-align: middle;
         color: black;
-        font-weight:500;
     }
     .r
     {
         margin-top: -6vh;
-    }
-
-     body {
-        background-image: url("../Assets/images/crops.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-         color:white;
     }
 </style>
 <body>
@@ -57,6 +48,7 @@
 
         <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php">Home</a></li>
+            <li><a href="AboutUs/index.php">About Us</a></li>
              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             <li><a href=" ContactUs/index.php ">Contact Us</a></li>
@@ -119,9 +111,9 @@
                 <div class="col-md-4 col-xs-12">
                 <div class="card text-center">
 
-                    <a href="choose_option.php"><div class="card-footer e">
+                    <div class="card-footer">
                         <img src="../Assets/images/r.jpg">
-                    </div></a>
+                    </div>
                      <div class="card-block">
                         <h4 class="card-title r">RICE</h4>
                         <p class="card-text">
@@ -132,10 +124,10 @@
                 <div class="col-md-4 col-xs-12">
                 <div class="card text-center">
 
-                     <a href="choose_option1.php"><div class="card-footer e">
+                    <div class="card-footer">
                          <img src="../Assets/images/w.jpg">
-                         </div></a>
-                         <div class="card-block">
+                    </div>
+                    <div class="card-block">
                         <h4 class="card-title r">WHEAT</h4>
                          <p class="card-text">
 
@@ -146,11 +138,11 @@
                 <div class="col-md-4 col-xs-12">
                 <div class="card text-center">
 
-                    <div class="card-footer e">
+                    <div class="card-footer">
                        <img src="../Assets/images/pp.jpg">
                     </div>
                     <div class="card-block">
-                        <h4 class="card-title r">POTATOES</h4>
+                        <h4 class="card-title r">Potatoes</h4>
                         <p class="card-text">
                         </p>
                     </div>
@@ -163,7 +155,7 @@
                  <div class="row">
                      <div class="col-md-4 col-xs-12">
                   <div class="card text-center">
-                      <div class="card-footer e">
+                      <div class="card-footer">
                             <img src="../Assets/images/bbb.jpg">
                      </div>
                   <div class="card-block">
@@ -176,7 +168,7 @@
                  <div class="col-md-4 col-xs-12">
         <div class="card text-center">
 
-            <div class="card-footer e">
+            <div class="card-footer">
                 <img src="../Assets/images/cab.jpg">
             </div>
              <div class="card-block">
@@ -190,11 +182,11 @@
                      <div class="col-md-4 col-xs-12">
         <div class="card text-center">
 
-            <div class="card-footer e">
+            <div class="card-footer">
                  <img src="../Assets/images/br.jpg">
             </div>
              <div class="card-block">
-                <h4 class="card-title r">BRINJAL</h4>
+                <h4 class="card-title">BRINJAL</h4>
                 <p class="card-text">
                 </p>
             </div>

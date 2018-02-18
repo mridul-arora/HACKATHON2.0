@@ -7,14 +7,15 @@ $id=$_SESSION['user_id'];
 if(isset($_POST['sub']))
 {
     $c=$_POST['crop_name'];
-   $a=$_POST['quantity'];
-   $b=$_POST['price'];
+   $a=$_POST['dist_name'];
+   $b=$_POST['mandi_name'];
+   $e=$_POST['price];
 
 
-     $query=mysqli_query($con,"INSERT INTO crop_buyer (user_id,crop_name,quantity,price)VALUES('$id','$c','$a','$b')");
+     $query=mysqli_query($con,"INSERT INTO rice_mp (dist_name,mandi_name,mp)VALUES('$id','$c','$a','$b','$e'");
     if($query)
     {
-        header("Location:buy_crop.php");
+        header("Location:index.php");
 
     }
 
