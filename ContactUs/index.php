@@ -76,7 +76,7 @@ body {
   background: ;
   padding: 25px;
   margin: 150px 0;
-  box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     border-radius: 25px;
 
 }
